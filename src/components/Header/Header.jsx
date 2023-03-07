@@ -10,12 +10,12 @@ import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
-import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import HomeIcon from "@mui/icons-material/Home";
 import ContactsIcon from "@mui/icons-material/Contacts";
+import { Avatar, ListItem } from "@mui/material";
 
 const drawerWidth = 240;
 
@@ -59,8 +59,17 @@ function Header() {
 
   return (
     <>
-      <AppBar position="fixed" open={open}>
+      <AppBar
+        position="fixed"
+        open={open}
+        sx={{ "background-color": "#003400" }}>
         <Toolbar>
+          <IconButton sx={{ p: 0 }}>
+            <Avatar
+              alt="Remy Sharp"
+              src="https://res.cloudinary.com/dw76lvtri/image/upload/v1678209703/logo2_fynlvl.jpg"
+            />
+          </IconButton>
           <Typography variant="h6" noWrap sx={{ flexGrow: 1 }} component="div">
             FUNDACIÓN CULTIPVA-T
           </Typography>
