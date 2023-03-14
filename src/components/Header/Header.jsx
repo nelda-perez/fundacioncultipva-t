@@ -16,6 +16,8 @@ import ListItemText from "@mui/material/ListItemText";
 import HomeIcon from "@mui/icons-material/Home";
 import ContactsIcon from "@mui/icons-material/Contacts";
 import { Avatar, ListItem } from "@mui/material";
+import { Link } from "react-router-dom";
+import "./header.css";
 
 const drawerWidth = 240;
 
@@ -57,20 +59,38 @@ function Header() {
     setOpen(false);
   };
 
+  const pages = [
+    {
+      page: "Inicio",
+      route: "/",
+      icon: <HomeIcon sx={{ color: "var(--dark-green)" }} />,
+    },
+    {
+      page: "Quienes Somos",
+      route: "/about",
+      icon: <ContactsIcon sx={{ color: "var(--dark-green)" }} />,
+    },
+  ];
+
   return (
     <>
       <AppBar
         position="fixed"
         open={open}
-        sx={{ "background-color": "#003400" }}>
+        sx={{ bgcolor: "var(--dark-green)" }}>
         <Toolbar>
           <IconButton sx={{ p: 0 }}>
             <Avatar
-              alt="Remy Sharp"
+              alt="Logo Fundacion Cultivando Principios y Valores Para Transformar"
               src="https://res.cloudinary.com/dw76lvtri/image/upload/v1678209703/logo2_fynlvl.jpg"
             />
           </IconButton>
-          <Typography variant="h6" noWrap sx={{ flexGrow: 1 }} component="div">
+          <Typography
+            variant="h6"
+            align="center"
+            noWrap
+            sx={{ flexGrow: 1 }}
+            component="div">
             FUNDACIÓN CULTIPVA-T
           </Typography>
           <IconButton
@@ -105,15 +125,15 @@ function Header() {
         </DrawerHeader>
         <Divider />
         <List>
-          {["Inicio", "Quienes somos"].map((text, index) => (
-            <ListItem key={text} disablePadding>
-              <ListItemButton>
-                <ListItemIcon>
-                  {index % 2 === 0 ? <HomeIcon /> : <ContactsIcon />}
-                </ListItemIcon>
-                <ListItemText primary={text} />
-              </ListItemButton>
-            </ListItem>
+          {pages.map((pag) => (
+            <Link key={pag.page} to={pag.route} className="optionStyleText">
+              <ListItem disablePadding>
+                <ListItemButton>
+                  <ListItemIcon>{pag.icon}</ListItemIcon>
+                  <ListItemText primary={pag.page} />
+                </ListItemButton>
+              </ListItem>
+            </Link>
           ))}
         </List>
       </Drawer>
