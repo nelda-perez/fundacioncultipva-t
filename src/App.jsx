@@ -1,18 +1,19 @@
 import "./App.css";
 import { Header } from "./components";
-import { Home, NotFound } from "./pages";
+import { About, Home, NotFound } from "./pages";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div>
       <Header />
-      <div className="container">
+      <main className="container">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </div>
+      </main>
     </div>
   );
 }

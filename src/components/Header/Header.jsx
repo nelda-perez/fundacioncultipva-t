@@ -17,6 +17,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import ContactsIcon from "@mui/icons-material/Contacts";
 import { Avatar, ListItem } from "@mui/material";
 import { Link } from "react-router-dom";
+import logo from "../../assets/logo2.jpg";
 import "./header.css";
 
 const drawerWidth = 240;
@@ -79,12 +80,14 @@ function Header() {
         open={open}
         sx={{ bgcolor: "var(--dark-green)" }}>
         <Toolbar>
-          <IconButton sx={{ p: 0 }}>
-            <Avatar
-              alt="Logo Fundacion Cultivando Principios y Valores Para Transformar"
-              src="https://res.cloudinary.com/dw76lvtri/image/upload/v1678209703/logo2_fynlvl.jpg"
-            />
-          </IconButton>
+          <Link to="/">
+            <IconButton sx={{ p: 0 }}>
+              <Avatar
+                alt="Logo Fundacion Cultivando Principios y Valores Para Transformar"
+                src={logo}
+              />
+            </IconButton>
+          </Link>
           <Typography
             variant="h6"
             align="center"

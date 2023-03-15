@@ -1,4 +1,10 @@
+import { YoutubeCard } from "./components";
+
 function Home() {
-  return <div className="stylePadding">Home</div>;
+  return (
+    <>
+      <YoutubeCard />
+    </>
+  );
 }
 export default Home;
