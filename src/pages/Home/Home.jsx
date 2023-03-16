@@ -1,4 +1,10 @@
+import { ProgramCard } from "./components";
+
 function Home() {
-  return <div className="stylePadding">Home</div>;
+  return (
+    <>
+      <ProgramCard />
+    </>
+  );
 }
 export default Home;
