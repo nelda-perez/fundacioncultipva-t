@@ -1,1 +1,1 @@
-export { default as YoutubeCard } from "./YoutubeCard";
+export { default as ProgramCard } from "./ProgramCard";

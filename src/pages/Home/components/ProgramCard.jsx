@@ -1,3 +1,4 @@
+import "./programCard.css";
 const information = [
   {
     key: 0,
@@ -19,23 +20,24 @@ const information = [
   },
 ];
 
-function YoutubeCard() {
+function ProgramCard() {
   return (
-    <div style={{ display: "block" }}>
+    <>
       {information.map((item) => (
-        <section key={item.key}>
-          <h3>{item.title}</h3>
-          <p>{item.info}</p>
+        <section key={item.key} className="tarjeta">
+          <div className="contenido">
+            <h2>{item.title}</h2>
+            <p>{item.info}</p>
+          </div>
           <iframe
-            width="560"
-            height="400"
+            width="400"
+            height="240"
             src={item.youtubeLink}
-            type="video/mp4"
             autoPlay
             controls></iframe>
         </section>
       ))}
-    </div>
+    </>
   );
 }
-export default YoutubeCard;
+export default ProgramCard;

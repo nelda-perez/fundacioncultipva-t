@@ -5,9 +5,9 @@ import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <div className="hiddenbody">
       <Header />
-      <main className="container">
+      <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

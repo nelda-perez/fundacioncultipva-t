@@ -1,9 +1,9 @@
-import { YoutubeCard } from "./components";
+import { ProgramCard } from "./components";
 
 function Home() {
   return (
     <>
-      <YoutubeCard />
+      <ProgramCard />
     </>
   );
 }

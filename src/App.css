@@ -1,12 +1,26 @@
 :root {
   --dark-green: #003400;
+  /* background-color: #0000008a; */
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* .stylePadding {
   padding-top: 60px;
 } */
 
-.container {
-  display: flex;
+main {
+  width: 100vw;
+  display: grid;
+  place-items: center;
   padding-top: 75px;
 }
