@@ -1,5 +1,7 @@
 :root {
   --dark-green: #003400;
+  --mix-green: linear-gradient(to bottom right, #003400, #3a7248);
+  /* --green: #003000d2; */
   /* background-color: #0000008a; */
 }
 

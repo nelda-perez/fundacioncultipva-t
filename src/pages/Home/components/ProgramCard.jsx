@@ -24,8 +24,8 @@ function ProgramCard() {
   return (
     <>
       {information.map((item) => (
-        <section key={item.key} className="tarjeta">
-          <div className="contenido">
+        <section key={item.key} className="card programCard">
+          <div className="content">
             <h2>{item.title}</h2>
             <p>{item.info}</p>
           </div>
