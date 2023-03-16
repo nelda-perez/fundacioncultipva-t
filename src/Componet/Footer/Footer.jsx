@@ -58,7 +58,7 @@ function footer(){
 ))}
 <div className="containerIcon">
 {mediaicons.map((item,index)=>(
-  <div className="icons" key={index}>
+  <div key={index}>
     <a href={item.link} target="_blank">{item.icon}</a>
   </div>
 ))}
