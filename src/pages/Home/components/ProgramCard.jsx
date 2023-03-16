@@ -1,4 +1,4 @@
-import "./programCard.css";
+import "./index.css";
 const information = [
   {
     key: 0,
