@@ -19,8 +19,6 @@ import logo from "../../assets/logo2.jpg";
 import { drawerWidth, pages, AppBar, DrawerHeader } from "../../utilities";
 import "./header.css";
 
-const drawerWidthLess = `calc(${drawerWidth}px - 20px)`;
-
 function Header() {
   const theme = useTheme();
   const [open, setOpen] = useState(false);
