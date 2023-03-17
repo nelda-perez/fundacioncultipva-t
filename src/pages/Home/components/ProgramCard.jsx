@@ -1,5 +1,5 @@
 import "./index.css";
-import proyectoImage from "../../../assets/proyecto.webp";
+import proyectoImage from "../../../assets/proyecto.png";
 
 const information = [
   {
