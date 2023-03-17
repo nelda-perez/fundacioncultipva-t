@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="hiddenbody">
+    <div>
       <Header />
       <main>
         <Routes>

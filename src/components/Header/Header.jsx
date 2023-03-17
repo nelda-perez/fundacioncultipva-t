@@ -19,6 +19,8 @@ import logo from "../../assets/logo2.jpg";
 import { drawerWidth, pages, AppBar, DrawerHeader } from "../../utilities";
 import "./header.css";
 
+const drawerWidthLess = `calc(${drawerWidth}px - 20px)`;
+
 function Header() {
   const theme = useTheme();
   const [open, setOpen] = useState(false);
@@ -95,7 +97,11 @@ function Header() {
 
           <List>
             {pages.map((pag) => (
-              <Link key={pag.page} to={pag.route} className="optionStyleText">
+              <Link
+                key={pag.page}
+                to={pag.route}
+                onClick={handleDrawerClose}
+                className="optionStyleText">
                 <ListItem disablePadding>
                   <ListItemButton>
                     <ListItemIcon>{pag.icon}</ListItemIcon>
