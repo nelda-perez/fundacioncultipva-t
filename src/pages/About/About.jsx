@@ -1,4 +1,10 @@
+import { ImageCards } from "./ImageCards";
+
 function About() {
-  return <div>About</div>;
+  return (
+    <div>
+      <ImageCards />
+    </div>
+  );
 }
 export default About;

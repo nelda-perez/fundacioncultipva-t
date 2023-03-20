@@ -1,6 +1,6 @@
 :root {
   --dark-green: #003400;
-  --mix-green: linear-gradient(to bottom right, #003400, #3a7248);
+  --mix-green: linear-gradient(to bottom right, #29787e, #3c9ea3);
   /* --green: #003000d2; */
   /* background-color: #0000008a; */
 }
@@ -15,7 +15,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #ffffff;
-  background-image: linear-gradient(to bottom right, #f1f1f1, #c0ddc0);
+  background-image: linear-gradient(to bottom right, #f1f1f1, #c4c5c4);
 }
 
 /* .stylePadding {
