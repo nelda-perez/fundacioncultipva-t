@@ -1,0 +1,50 @@
+:root{
+    --verde:#003400;
+    --width: 217px;
+}
+footer{
+  background-color: var(--verde);
+  display: flex;
+
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;  
+}
+
+span{
+    color: rgb(244, 241, 241);
+    font-size: 16px;
+    font-family: 'Capri';
+    display: flex;
+}
+
+
+a{
+    color: rgb(249, 244, 244);
+    font-size: 16px;
+    font-family: 'Capri';
+    text-decoration: none;  
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+    
+}
+.one{
+    display: flex;
+    justify-content: center;
+    margin: 0 40px;
+}
+
+.two{
+    display: flex;
+    margin: 0 40px;
+    
+}
+
+.containerIcon{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
