@@ -7,12 +7,12 @@ export const pages = [
   {
     page: "Inicio",
     route: "/",
-    icon: <HomeIcon sx={{ color: "var(--dark-green)" }} />,
+    icon: <HomeIcon sx={{ color: "var(--main-color)" }} />,
   },
   {
     page: "Quienes Somos",
     route: "/about",
-    icon: <ContactsIcon sx={{ color: "var(--dark-green)" }} />,
+    icon: <ContactsIcon sx={{ color: "var(--main-color)" }} />,
   },
 ];
 

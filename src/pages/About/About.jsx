@@ -1,9 +1,9 @@
-import { ImageCards } from "./ImageCards";
+import { ContainerImageCards } from "./components";
 
 function About() {
   return (
-    <div>
-      <ImageCards />
+    <div className="imageCard-container">
+      <ContainerImageCards />
     </div>
   );
 }

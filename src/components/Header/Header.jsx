@@ -37,7 +37,7 @@ function Header() {
         position="fixed"
         open={open}
         sx={{
-          background: "var(--mix-green)",
+          background: "var(--main-gradient)",
         }}>
         <Toolbar>
           <Link to="/">

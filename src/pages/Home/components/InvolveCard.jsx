@@ -25,7 +25,7 @@ const informationCards = [
 function InvolveCard() {
   return (
     <>
-      <section class="contenedor-tarjetas">
+      <section class="card-container">
         {informationCards.map((card) => (
           <article key={card.title} class="card involveCard">
             <div class="icon">{card.icon}</div>
