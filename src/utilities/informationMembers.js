@@ -18,7 +18,7 @@ export const infoMembers = [
         skill: "Arquitecta y experiencia en construcción, arte y diseño.",
         job: "Voluntaria en Relaciones Públicas y Alianzias Estratégicas en Fundación Cultipva-T",
         description:
-          "Esposa y madre comprometica con el crecimiento y desarrollo de mi familia. Actitud creativa, de servicio y critica de la educación que me lleva a trabajar en el crecimiento de las familias a través del desarrollo de principios y valores.",
+          "Actitud creativa, de servicio y critica de la educación que me lleva a trabajar en el crecimiento de las familias a través del desarrollo de principios y valores.",
         imageUrl: Ma_Claudia,
       },
     ],
