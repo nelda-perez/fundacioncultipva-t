@@ -1,10 +1,17 @@
-import { ContainerImageCards } from "./components";
+import { ContainerImageCards, ImageCards } from "./components";
+import { TEAMS } from "./constant";
 
 function About() {
   return (
-    <div className="imageCard-container">
-      <ContainerImageCards />
-    </div>
+    <>
+      {TEAMS.map((team) => (
+        <ContainerImageCards key={team.key} team={team}>
+          {team.members.map((member) => (
+            <ImageCards key={member.key} member={member} />
+          ))}
+        </ContainerImageCards>
+      ))}
+    </>
   );
 }
 export default About;

@@ -1,20 +1,9 @@
-import { infoMembers } from "../../../../utilities";
-import { ImageCards } from "../ImageCards";
-
-function ContainerImageCards() {
+function ContainerImageCards({ team, children }) {
   return (
-    <div>
-      {infoMembers.map((item) => (
-        <div key={item.key}>
-          <h2 className="title-card">{item.title}</h2>
-          <div className="imageCard-container">
-            {item.members.map((member) => (
-              <ImageCards key={member.key} member={member} />
-            ))}
-          </div>
-        </div>
-      ))}
-    </div>
+    <>
+      <h2 className="team-title">{team.title}</h2>
+      <div className="container">{children}</div>
+    </>
   );
 }
 export default ContainerImageCards;

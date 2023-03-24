@@ -1,13 +1,12 @@
-import Ma_Claudia from "../assets/Ma_Claudia.png";
-import Ruben from "../assets/Ruben.png";
-import Angie from "../assets/Angie.png";
-import Carlina from "../assets/carlina.png";
-import Nelda from "../assets/Nelda.png";
-import Algenith from "../assets/algenith.png";
-import Camila from "../assets/camila.png";
-import Valeria from "../assets/vale.jpg";
+import Ma_Claudia from "../../../assets/Ma_Claudia.png";
+import Ruben from "../../../assets/Ruben.png";
+import Angie from "../../../assets/Angie.png";
+import Carlina from "../../../assets/carlina.png";
+import Nelda from "../../../assets/Nelda.png";
+import Camila from "../../../assets/camila.png";
+import Valeria from "../../../assets/vale.jpg";
 
-export const infoMembers = [
+export const TEAMS = [
   {
     key: 0,
     title: "Equipo de Apoyo Voluntario",
@@ -18,7 +17,7 @@ export const infoMembers = [
         skill: "Arquitecta y experiencia en construcción, arte y diseño.",
         job: "Voluntaria en Relaciones Públicas y Alianzias Estratégicas en Fundación Cultipva-T",
         description:
-          "Actitud creativa, de servicio y critica de la educación que me lleva a trabajar en el crecimiento de las familias a través del desarrollo de principios y valores.",
+          "Trabajo en el desarrollo de principios y valores éticos y responsabilidad social para contribuir al crecimiento de las familias y la comunidad.",
         imageUrl: Ma_Claudia,
       },
     ],
@@ -53,7 +52,7 @@ export const infoMembers = [
     members: [
       {
         key: 3,
-        name: "CARINA ZARATE OLAYA",
+        name: "CARLINA ZARATE OLAYA",
         skill: "Psicóloga",
         job: "Coordinadora del Área Biopsicosocial, Cofundadora y Miembro de la junta Directiva en Fundación Cultipva-T",
         description:
@@ -68,14 +67,6 @@ export const infoMembers = [
         description:
           "Apasionada con la restauración social y extensión del Reino de Dios.",
         imageUrl: Nelda,
-      },
-      {
-        key: 5,
-        name: "ALGENITH GALEANO LOAIZA",
-        skill: "Administradora de Empresas",
-        job: "Dirección Administrativa y Financiera. Miembro de la junta Directiva en Fundación Cultipva-T",
-        description: "Caracterizada por el servicio a los demas.",
-        imageUrl: Algenith,
       },
       {
         key: 6,
