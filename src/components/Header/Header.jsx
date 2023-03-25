@@ -36,7 +36,9 @@ function Header() {
       <AppBar
         position="fixed"
         open={open}
-        sx={{ bgcolor: "var(--dark-green)" }}>
+        sx={{
+          background: "var(--mix-green)",
+        }}>
         <Toolbar>
           <Link to="/">
             <IconButton sx={{ p: 0 }}>
@@ -93,7 +95,11 @@ function Header() {
 
           <List>
             {pages.map((pag) => (
-              <Link key={pag.page} to={pag.route} className="optionStyleText">
+              <Link
+                key={pag.page}
+                to={pag.route}
+                onClick={handleDrawerClose}
+                className="optionStyleText">
                 <ListItem disablePadding>
                   <ListItemButton>
                     <ListItemIcon>{pag.icon}</ListItemIcon>
