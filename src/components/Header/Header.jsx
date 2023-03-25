@@ -36,7 +36,7 @@ function Header() {
       <AppBar
         position="fixed"
         open={open}
-        sx={{ bgcolor: "var(--dark-green)" }}>
+        sx={{ background: "var(--main-gradient)" }}>
         <Toolbar>
           <Link to="/">
             <IconButton sx={{ p: 0 }}>
