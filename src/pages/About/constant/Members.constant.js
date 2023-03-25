@@ -14,8 +14,7 @@ export const TEAMS = [
       {
         key: 0,
         name: "MARIA CLAUDIA ORDOÑEZ",
-        skill: "Arquitecta y experiencia en construcción, arte y diseño.",
-        job: "Voluntaria en Relaciones Públicas y Alianzias Estratégicas en Fundación Cultipva-T",
+        job: "Voluntaria en Relaciones Públicas y Alianzias Estratégicas",
         description:
           "Trabajo en el desarrollo de principios y valores éticos y responsabilidad social para contribuir al crecimiento de las familias y la comunidad.",
         imageUrl: Ma_Claudia,
@@ -30,7 +29,7 @@ export const TEAMS = [
         key: 1,
         name: "RUBEN DARIO TORRES",
         skill: "Contador Publico",
-        job: "Liderazgo Internacional. Revisor Fiscal Ad honorem en Fundación Cultipva-T",
+        job: "Liderazgo Internacional. Revisor Fiscal Ad honorem",
         description:
           "Apasionado por promover la verdad y el servicio a la comunidad y amante de las enseñanzas de Jesús.",
         imageUrl: Ruben,
@@ -39,7 +38,7 @@ export const TEAMS = [
         key: 2,
         name: "ANGIE JOHANA MORENO",
         skill: "Contadora Publica",
-        job: "Experiencia en auditoría y revisoría fiscal. Contadora Ad honorem en Fundación Cultipva-T",
+        job: "Experiencia en auditoría y revisoría fiscal. Contadora Ad honorem",
         description:
           "Comprometida con los valores y principios que promueve Jesús desde su hogar y también a la sociedad.",
         imageUrl: Angie,
@@ -54,7 +53,7 @@ export const TEAMS = [
         key: 3,
         name: "CARLINA ZARATE OLAYA",
         skill: "Psicóloga",
-        job: "Coordinadora del Área Biopsicosocial, Cofundadora y Miembro de la junta Directiva en Fundación Cultipva-T",
+        job: "Coordinadora del Área Biopsicosocial y Cofundadora",
         description:
           "Promotora de la única verdad, inspirar a los demás en el amor, seguridad, confianza y fortalecer las relaciones familiares.",
         imageUrl: Carlina,
@@ -63,7 +62,7 @@ export const TEAMS = [
         key: 4,
         name: "NELDA DE JESUS PEREZ",
         skill: "Gestos Social",
-        job: "Representante Legal, Cofundadora y Miembro de la junta Directiva en Fundación Cultipva-T",
+        job: "Representante Legal y Cofundadora",
         description:
           "Apasionada con la restauración social y extensión del Reino de Dios.",
         imageUrl: Nelda,
@@ -72,7 +71,7 @@ export const TEAMS = [
         key: 6,
         name: "CAMILA ANDREA PANIZA",
         skill: "Profesional en Negocios Internacionales",
-        job: "Coordinadora de Programas de Cooperación Internacional. Cofundadora y Miembro de la junta Directiva en Fundación Cultipva-T",
+        job: "Coordinadora de Programas de Cooperación Internacional y Cofundadora",
         description:
           "Apasionada de compartir la verdad con otros, se motiva en influenciar en otros a crecer y seguir adelante.",
         imageUrl: Camila,
@@ -81,7 +80,7 @@ export const TEAMS = [
         key: 7,
         name: "VALERIA ISABEL PALENCIA",
         skill: "Finanzas y negocios internacionales ",
-        job: "Coordinadora de Jóvenes, Administradora de la página web y Miembro de la junta Directiva en Fundación Cultipva-T",
+        job: "Coordinadora de Jóvenes y Administradora de la página web",
         description:
           "Apasionada de conocer distintas culturas e idiomas con el fin de motivar a mas gente de diferentes orígenes.",
         imageUrl: Valeria,
