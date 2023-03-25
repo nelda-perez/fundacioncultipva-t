@@ -3,14 +3,14 @@ import { INVOLVES } from "../../constant";
 function InvolveCard() {
   return (
     <>
-      <section class="card-container">
+      <section className="card-container">
         {INVOLVES.map((card) => (
-          <article key={card.key} class="card involveCard">
-            <div class="icon">{card.icon}</div>
-            <div class="title">
+          <article key={card.key} className="card involveCard">
+            <div className="icon">{card.icon}</div>
+            <div className="title">
               <h2>{card.title}</h2>
             </div>
-            <div class="description">
+            <div className="description">
               <p>{card.description}</p>
             </div>
           </article>
