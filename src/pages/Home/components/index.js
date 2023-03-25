@@ -1,2 +1,2 @@
-export { default as InvolveCard } from "./InvolveCard";
-export { default as ProgramCard } from "./ProgramCard";
+export { default as InvolveCard } from "./InvolveCard/InvolveCard";
+export { default as ProgramCard } from "./ProgramCard/ProgramCard";
