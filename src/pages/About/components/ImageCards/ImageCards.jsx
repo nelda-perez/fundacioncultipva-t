@@ -4,7 +4,7 @@ function ImageCards({ member }) {
   const { imageUrl, name, job, description } = member;
 
   return (
-    <article class="image-card__container">
+    <article class="image-card__container hover">
       <div class="testimonials-header"></div>
       <div class="testimonials-info">
         <div class="testimonials-image">

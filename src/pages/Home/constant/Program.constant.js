@@ -1,7 +1,6 @@
-import "./index.css";
 import proyectoImage from "../../../assets/proyecto.png";
 
-const information = [
+export const PROGRAMS = [
   {
     key: 0,
     title: "Jóvenes no adoptados",
@@ -18,32 +17,6 @@ const information = [
     key: 2,
     title: "Proyectos de Emprendimiento y Autosostenibilidad",
     info: "Hoy se ha perdido el concepto original del trabajo, el ser humano fue puesto para administrar, sojuzgar y co crear, es necesario restaurar este concepto, inspirar, enseñar y promover el emprendimiento de proyectos, conlleva a recobrar identidad y propósito; parte del proceso de los jóvenes y familias es que descubran sus dones y talentos, desarrollen sus habilidades y descubran el propósito por el cual están en esta tierra.",
-    link: proyectoImage,
+    img: proyectoImage,
   },
 ];
-
-function ProgramCard() {
-  return (
-    <>
-      {information.map((item, index) => (
-        <section key={item.key} className="card programCard">
-          <div className="content">
-            <h2>{item.title}</h2>
-            <p>{item.info}</p>
-          </div>
-          {index != 2 ? (
-            <iframe
-              width="400"
-              height="240"
-              src={item.link}
-              autoPlay
-              controls></iframe>
-          ) : (
-            <img src={item.link} width="350" />
-          )}
-        </section>
-      ))}
-    </>
-  );
-}
-export default ProgramCard;

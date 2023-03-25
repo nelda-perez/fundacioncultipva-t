@@ -19,6 +19,8 @@
     border-radius: 15px;
     max-width: 350px;
     margin-right: 10px;
+    transition: all 0.2s ease-in-out;
+    cursor: default;
 }
 
 .testimonials-header {
