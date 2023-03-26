@@ -1,20 +1,5 @@
 import { styled } from "@mui/material/styles";
 import MuiAppBar from "@mui/material/AppBar";
-import HomeIcon from "@mui/icons-material/Home";
-import ContactsIcon from "@mui/icons-material/Contacts";
-
-export const pages = [
-  {
-    page: "Inicio",
-    route: "/",
-    icon: <HomeIcon sx={{ color: "var(--dark-green)" }} />,
-  },
-  {
-    page: "Quienes Somos",
-    route: "/about",
-    icon: <ContactsIcon sx={{ color: "var(--dark-green)" }} />,
-  },
-];
 
 export const drawerWidth = 240;
 

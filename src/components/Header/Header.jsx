@@ -16,7 +16,8 @@ import ListItemText from "@mui/material/ListItemText";
 import { Avatar, ListItem } from "@mui/material";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo2.jpg";
-import { drawerWidth, pages, AppBar, DrawerHeader } from "../../utilities";
+import { drawerWidth, AppBar, DrawerHeader } from "../../utilities";
+import { PAGES } from "./constant";
 import "./header.css";
 
 function Header() {
@@ -36,7 +37,9 @@ function Header() {
       <AppBar
         position="fixed"
         open={open}
-        sx={{ background: "var(--main-gradient)" }}>
+        sx={{
+          background: "var(--main-gradient)",
+        }}>
         <Toolbar>
           <Link to="/">
             <IconButton sx={{ p: 0 }}>
@@ -92,8 +95,12 @@ function Header() {
           <Divider />
 
           <List>
-            {pages.map((pag) => (
-              <Link key={pag.page} to={pag.route} className="optionStyleText">
+            {PAGES.map((pag) => (
+              <Link
+                key={pag.page}
+                to={pag.route}
+                onClick={handleDrawerClose}
+                className="optionStyleText">
                 <ListItem disablePadding>
                   <ListItemButton>
                     <ListItemIcon>{pag.icon}</ListItemIcon>
