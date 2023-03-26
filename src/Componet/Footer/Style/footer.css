@@ -1,16 +1,15 @@
-:root{
-    --verde:#003400;
-    --width: 217px;
-}
 footer{
-  background-color: var(--verde);
+  background: var(--main-gradient);
   display: flex;
-
+  justify-content: center;
+  align-items: center;
 }
 
 .container{
   display: flex;
-  justify-content: space-around;  
+  justify-content: space-between; 
+  width:15%;
+ 
 }
 
 span{
@@ -35,16 +34,18 @@ a{
     display: flex;
     justify-content: center;
     margin: 0 40px;
+    width:68%;
 }
 
 .two{
     display: flex;
     margin: 0 40px;
+    width:67%;
     
 }
 
 .containerIcon{
     display: flex;
     justify-content: flex-end;
-    width: 50%;
+    width: 30%;
 }
