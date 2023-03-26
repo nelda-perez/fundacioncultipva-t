@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 :root {
-  --dark-green: #003400;
-  --mix-green: linear-gradient(to bottom right, #003400, #3a7248);
-  /* --green: #003000d2; */
-  /* background-color: #0000008a; */
+  --main-color: #2ad99c;
+  --main-gradient: linear-gradient(to bottom right, #209c5e, #2ad99c);
+  height: auto;
+  min-height: 100%;
+}
+
+.hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
 }
 
 a {
@@ -14,6 +21,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-image: linear-gradient(to bottom right, #f1f1f1, #c4c5c4);
 }
 
 /* .stylePadding {
@@ -21,8 +29,8 @@ body {
 } */
 
 main {
-  width: 100vw;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-top: 75px;
 }
