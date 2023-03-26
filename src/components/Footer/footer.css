@@ -7,8 +7,16 @@ footer{
 }
 
 .container-link {
-    width: 60%;
+    width: 75%;
     justify-content: space-between;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .container-link {
+        width: 90%;
+    }
 }
 
 .span-footer{
@@ -32,6 +40,6 @@ a{
 
 .containerIcon{
     display: flex;
-    justify-content: flex-end;
-    width: 30%;
+    justify-content: center;
+    width: 20%;
 }

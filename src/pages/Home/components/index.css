@@ -33,6 +33,14 @@
     transition: all 0.2s ease-in-out;
 }
 
+@media only screen and (max-width: 900px) {
+    .card iframe,
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+}
+
 /* Estilos para el contenido de la tarjeta */
 .content {
     padding: 20px;

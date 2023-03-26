@@ -15,8 +15,6 @@ function ProgramCard() {
           ) : (
             <iframe
               className="hover"
-              width="400"
-              height="240"
               src={item.link}
               autoPlay
               controls></iframe>
