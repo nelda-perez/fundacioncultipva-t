@@ -3,16 +3,15 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-.container{
-  display: flex;
-  justify-content: space-between; 
-  width:15%;
- 
+.container-link {
+    width: 60%;
+    justify-content: space-between;
 }
 
-span{
+.span-footer{
     color: rgb(244, 241, 241);
     font-size: 16px;
     font-family: 'Capri';
@@ -28,19 +27,6 @@ a{
     display: flex;
     align-items: center;
     margin: 0 5px;
-    
-}
-.one{
-    display: flex;
-    justify-content: center;
-    margin: 0 40px;
-    width:68%;
-}
-
-.two{
-    display: flex;
-    margin: 0 40px;
-    width:67%;
     
 }
 

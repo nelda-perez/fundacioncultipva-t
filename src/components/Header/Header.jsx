@@ -18,7 +18,6 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/logo2.jpg";
 import { drawerWidth, AppBar, DrawerHeader } from "../../utilities";
 import { PAGES } from "./constant";
-import "./header.css";
 
 function Header() {
   const theme = useTheme();
@@ -96,15 +95,11 @@ function Header() {
 
           <List>
             {PAGES.map((pag) => (
-              <Link
-                key={pag.page}
-                to={pag.route}
-                onClick={handleDrawerClose}
-                className="optionStyleText">
+              <Link key={pag.page} to={pag.route} onClick={handleDrawerClose}>
                 <ListItem disablePadding>
                   <ListItemButton>
                     <ListItemIcon>{pag.icon}</ListItemIcon>
-                    <ListItemText primary={pag.page} />
+                    <ListItemText primary={pag.page} sx={{ color: "black" }} />
                   </ListItemButton>
                 </ListItem>
               </Link>

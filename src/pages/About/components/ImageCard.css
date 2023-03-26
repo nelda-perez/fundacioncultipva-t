@@ -1,11 +1,7 @@
-.container {
+.container__image-card {
     width: 90vw;
     margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around; 
 }
 
 .team-title {

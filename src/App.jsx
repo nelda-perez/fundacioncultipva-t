@@ -1,8 +1,7 @@
 import "./App.css";
-import { Header } from "./components";
+import { Header, Footer } from "./components";
 import { About, Home, NotFound, RTE } from "./pages";
 import { Routes, Route } from "react-router-dom";
-import {Footer} from "./Componet"
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

@@ -1,18 +1,20 @@
 import React from "react";
 import { infoFooter, mediaicons } from "./constant";
-import "./Style/footer.css";
+import "./footer.css";
 
 function footer() {
   return (
     <footer>
-      {infoFooter.map((item, index) => (
-        <div className="Container" key={index}>
-          <span className="one">
-            {item.icon}
-            <a href={item.link}>{item.content}</a>
-          </span>
-        </div>
-      ))}
+      <div className="container container-link">
+        {infoFooter.map((item, index) => (
+          <div key={index}>
+            <span className="span-footer">
+              {item.icon}
+              <a href={item.link}>{item.content}</a>
+            </span>
+          </div>
+        ))}
+      </div>
       <div className="containerIcon">
         {mediaicons.map((item, index) => (
           <div key={index}>
