@@ -19,7 +19,7 @@ function ItemPdf() {
           <span>
             <PictureAsPdfIcon sx={{ fontSize: "60px", color: "red" }} />
           </span>
-          <span style={{ color: "black" }}>{item.name}</span>
+          <span className="span-rte">{item.name}</span>
         </a>
       ))}
     </>
