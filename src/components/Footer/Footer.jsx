@@ -1,28 +1,43 @@
 import React from "react";
-import { infoFooter, mediaicons } from "./constant";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import { ItemFooter } from "./component";
 import "./footer.css";
 
 function footer() {
   return (
     <footer>
       <div className="container container-link">
-        {infoFooter.map((item, index) => (
-          <div key={index}>
-            <span className="span-footer">
-              {item.icon}
-              <a href={item.link}>{item.content}</a>
-            </span>
-          </div>
-        ))}
+        <ItemFooter
+          icon="address"
+          link="https://goo.gl/maps/zsRgrJUbAPvEucLc9"
+          content="Kra.76a Sur No.62 K 48"
+        />
+        <ItemFooter
+          icon="phone"
+          link="https://wa.me/+573132112921"
+          content="3132112921"
+        />
+        <ItemFooter
+          icon="email"
+          link="mailto:contactenos@fundacioncultivar.org"
+          content="contactenos@fundacioncultivar.org"
+        />
+        <ItemFooter icon="info" link="/rte" content="Transparencia" />
       </div>
       <div className="containerIcon">
-        {mediaicons.map((item, index) => (
-          <div key={index}>
-            <a href={item.link} target="_blank">
-              {item.icon}
-            </a>
-          </div>
-        ))}
+        <a href="https://www.facebook.com/CultipvaT" target="_blank">
+          {<FacebookIcon sx={{ fontSize: "35px" }} />}
+        </a>
+        <a href="https://instagram.com/cultipvat" target="_blank">
+          {<InstagramIcon sx={{ fontSize: "35px" }} />}
+        </a>
+        <a
+          href="https://www.youtube.com/@fundacioncultipva-t5326"
+          target="_blank">
+          {<YouTubeIcon sx={{ fontSize: "35px" }} />}
+        </a>
       </div>
     </footer>
   );

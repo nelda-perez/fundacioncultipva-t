@@ -13,8 +13,8 @@ export const TEAMS = [
     members: [
       {
         key: 0,
-        name: "MARIA CLAUDIA ORDOÑEZ",
-        job: "Voluntaria en Relaciones Públicas y Alianzias Estratégicas",
+        name: "Maria Claudia Ordoñez",
+        job: "Voluntaria en Relaciones Públicas y Alianzas Estratégicas",
         description:
           "Trabajo en el desarrollo de principios y valores éticos y responsabilidad social para contribuir al crecimiento de las familias y la comunidad.",
         imageUrl: Ma_Claudia,
@@ -27,7 +27,7 @@ export const TEAMS = [
     members: [
       {
         key: 1,
-        name: "RUBEN DARIO TORRES",
+        name: "Ruben Dario Torres",
         skill: "Contador Publico",
         job: "Liderazgo Internacional. Revisor Fiscal Ad honorem",
         description:
@@ -36,7 +36,7 @@ export const TEAMS = [
       },
       {
         key: 2,
-        name: "ANGIE JOHANA MORENO",
+        name: "Angie Johana Moreno",
         skill: "Contadora Publica",
         job: "Experiencia en auditoría y revisoría fiscal. Contadora Ad honorem",
         description:
@@ -47,39 +47,45 @@ export const TEAMS = [
   },
   {
     key: 2,
-    title: "Miembros de Junta Directiva",
+    title: "Fundadores",
     members: [
       {
         key: 3,
-        name: "CARLINA ZARATE OLAYA",
+        name: "Carlina Zarate Olaya",
         skill: "Psicóloga",
-        job: "Coordinadora del Área Biopsicosocial y Cofundadora",
+        job: "Coordinadora del Área Biopsicosocial",
         description:
           "Promotora de la única verdad, inspirar a los demás en el amor, seguridad, confianza y fortalecer las relaciones familiares.",
         imageUrl: Carlina,
       },
       {
         key: 4,
-        name: "NELDA DE JESUS PEREZ",
+        name: "Nelda De Jesus Perez",
         skill: "Gestos Social",
-        job: "Representante Legal y Cofundadora",
+        job: "Representante Legal",
         description:
           "Apasionada con la restauración social y extensión del Reino de Dios.",
         imageUrl: Nelda,
       },
       {
         key: 6,
-        name: "CAMILA ANDREA PANIZA",
+        name: "Camila Andrea Paniza",
         skill: "Profesional en Negocios Internacionales",
-        job: "Coordinadora de Programas de Cooperación Internacional y Cofundadora",
+        job: "Coordinadora de Programas de Cooperación Internacional",
         description:
           "Apasionada de compartir la verdad con otros, se motiva en influenciar en otros a crecer y seguir adelante.",
         imageUrl: Camila,
       },
+    ],
+  },
+  {
+    key: 3,
+    title: "Fundadores Adherentes",
+    members: [
       {
         key: 7,
-        name: "VALERIA ISABEL PALENCIA",
-        skill: "Finanzas y negocios internacionales ",
+        name: "Valeria Isabel Palencia",
+        skill: "Finanzas y negocios internacionales",
         job: "Coordinadora de Jóvenes y Administradora de la página web",
         description:
           "Apasionada de conocer distintas culturas e idiomas con el fin de motivar a mas gente de diferentes orígenes.",
