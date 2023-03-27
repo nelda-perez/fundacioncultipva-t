@@ -5,6 +5,9 @@ footer{
   align-items: center;
   flex-wrap: wrap;
   margin-top: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .container-link {
