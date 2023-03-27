@@ -1,7 +1,6 @@
 .container__image-card {
-    width: 90vw;
     margin: 0 auto;
-    justify-content: space-around; 
+    justify-content: space-evenly; 
 }
 
 .team-title {
@@ -18,6 +17,13 @@
     transition: all 0.2s ease-in-out;
     cursor: default;
     margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 696px) {
+
+    .image-card__container {
+        margin-right: 0;
+    }
 }
 
 .testimonials-header {
