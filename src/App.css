@@ -37,3 +37,30 @@ main {
   padding-top: 75px;
   margin-bottom: 50px;
 }
+
+@media only screen and (max-width: 904px) {
+
+  main {
+    margin-bottom: 65px;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+
+  main {
+    margin-bottom: 85px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+
+  main {
+    margin-bottom: 135px;
+  }
+
+  .container-link {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
