@@ -6,17 +6,7 @@ export const FILESPDF = [
   },
   {
     key: 1,
-    name: "RUT - 2022",
-    file: "rut2022",
-  },
-  {
-    key: 2,
-    name: "Estados financieros - 2022",
-    file: "esf2022",
-  },
-  {
-    key: 3,
-    name: "Certificado de Representación Legal - 2022",
-    file: "crl2022",
+    name: "Regimen Tributario Especial - 2022",
+    file: "rte2022",
   },
 ];
