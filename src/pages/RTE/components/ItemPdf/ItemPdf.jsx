@@ -11,7 +11,7 @@ function ItemPdf() {
   return (
     <>
       {FILESPDF.map((item) => (
-        <a key={item.key} href={File[item.file]}>
+        <a key={item.key} href={File[item.file]} target="_blank">
           <span>
             <PictureAsPdfIcon sx={{ fontSize: "60px", color: "red" }} />
           </span>

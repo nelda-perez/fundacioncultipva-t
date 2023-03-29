@@ -6,7 +6,7 @@ export const FILESPDF = [
   },
   {
     key: 1,
-    name: "Regimen Tributario Especial - 2022",
+    name: "Regimen Tributario Especial - 2022 - 2023",
     file: "rte2022",
   },
 ];
