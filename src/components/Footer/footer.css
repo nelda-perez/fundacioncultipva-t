@@ -7,10 +7,11 @@ footer{
   position: fixed;
   bottom: 0;
   width: 100%;
+  height: auto;
 }
 
 .container-link {
-    margin-top: 0.5rem;
+    padding: 5px 0;
     width: 75%;
     justify-content: space-between;
     text-align: center;
@@ -43,6 +44,7 @@ a{
 }
 
 .containerIcon{
+    padding: 5px;
     display: flex;
     justify-content: center;
     width: 20%;
