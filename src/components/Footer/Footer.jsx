@@ -11,7 +11,7 @@ function footer() {
       <div className="container container-link">
         <ItemFooter
           icon="address"
-          link="https://goo.gl/maps/zsRgrJUbAPvEucLc9"
+          link="https://goo.gl/maps/ncJVDW3rP3PoLWsL7"
           content="Kra.76a Sur No.62 K 48"
         />
         <ItemFooter
