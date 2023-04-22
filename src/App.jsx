@@ -1,5 +1,5 @@
 import "./App.css";
-import { Header, Footer } from "./components";
+import { Header, Footer, Iconwp } from "./components";
 import { About, Home, NotFound, RTE } from "./pages";
 import { Routes, Route } from "react-router-dom";
 
@@ -14,6 +14,7 @@ function App() {
           <Route path="/rte" element={<RTE />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Iconwp />
       </main>
       <Footer />
     </div>

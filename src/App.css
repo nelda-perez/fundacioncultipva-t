@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
 :root {
   --main-gradient: linear-gradient(to bottom right, #209c5e, #2ad99c);
   --main-color: #2ad99c;
+  --wp-color: #119c6b;
   height: auto;
   min-height: 100%;
 }
@@ -23,6 +24,25 @@ a {
   text-decoration: none;
 }
 
+.container-whatsapp__icon {
+  cursor: pointer;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 17px;
+  bottom: 116px;
+  color: #f1f1f1;
+  background: var(--main-gradient);
+  padding: 4px 4px 6px 6px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 15px 10px rgba(112, 112, 112, 0.68);
+  -moz-box-shadow: 0px 0px 15px 10px rgba(112, 112, 112, 0.68);
+  box-shadow: 0px 0px 15px 10px rgba(112, 112, 112, 0.68);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -39,21 +59,18 @@ main {
 }
 
 @media only screen and (max-width: 904px) {
-
   main {
     margin-bottom: 65px;
   }
 }
 
 @media only screen and (max-width: 765px) {
-
   main {
     margin-bottom: 85px;
   }
 }
 
 @media only screen and (max-width: 650px) {
-
   main {
     margin-bottom: 135px;
   }
@@ -62,5 +79,8 @@ main {
     flex-direction: column;
     align-items: center;
   }
-}
 
+  .container-whatsapp__icon {
+    bottom: 170px;
+  }
+}
