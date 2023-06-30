@@ -5,20 +5,12 @@ function ProgramCard() {
   return (
     <>
       {PROGRAMS.map((item) => (
-        <section key={item.key} className="card hover programCard">
+        <section key={item.key} className="programCard">
           <div className="content">
             <h2>{item.title}</h2>
             <p>{item.info}</p>
           </div>
-          {item.img ? (
-            <img className="hover" src={item.img} width="350" />
-          ) : (
-            <iframe
-              className="hover"
-              src={item.link}
-              autoPlay
-              controls></iframe>
-          )}
+          { item.img && <img className="img" src={item.img} width="350" /> }
         </section>
       ))}
     </>

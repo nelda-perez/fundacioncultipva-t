@@ -1,1 +1,1 @@
-export * from "./PAGES.constant";
+export * from './header.constant';
