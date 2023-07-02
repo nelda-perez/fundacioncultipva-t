@@ -1,4 +1,4 @@
-export const ACTIONS = [
+export const PAGE_ACTIONS = [
   {
     key: 1,
     title: "JOVENES EN CONDICIONES DE ORFANDAD",
@@ -13,6 +13,7 @@ export const ACTIONS = [
       "Desarrollamos acciones de mentoreo:  académico, técnico, emprendimiento, liderazgo y familiar.",
       "Realizamos asesorías en comunidades interesadas en procesos de transformación.",
     ],
+    path: "jovenes",
   },
   {
     key: 2,
@@ -26,6 +27,7 @@ export const ACTIONS = [
       "Trabajamos con cada familia involucrada para que dimensionen el rol que les corresponde a los padres frente a sus hijos.",
       "Impulsamos a los líderes de las comunidades para que creen emprendimientos sotenibles.",
     ],
+    path: "familias",
   },
   {
     key: 3,
@@ -36,6 +38,7 @@ export const ACTIONS = [
       "Ofrecemos formación para desarrollar en los interesados una ética del trabajo.",
       "Acompañamos el desarrollo de sus emprendimientos.",
     ],
+    path: "emprende",
   },
 ];
 
@@ -45,20 +48,20 @@ export const CARD_ACTIONS = [
     title: "JOVENES EN CONDICIONES DE ORFANDAD",
     description:
       "Apoyamos a jóvenes en orfandad en su crecimiento personal y descubrimiento del propósito de vida.",
-    path: 'jovenes'
+    path: "jovenes",
   },
   {
     key: 2,
     title: "Familias saludables",
     description:
       "Descubre cómo promovemos el estudio y desarrollo de emprendimientos entre los involucrados y sus familias.",
-      path: 'familias'
+    path: "familias",
   },
   {
     key: 3,
     title: "Acompañamiento  para desarrollar emprendimientos",
     description:
       "Descubre cómo podemos ayudarte a canalizar tu pasión y convertirla en un emprendimiento exitoso.",
-      path: 'emprende'
+    path: "emprende",
   },
 ];

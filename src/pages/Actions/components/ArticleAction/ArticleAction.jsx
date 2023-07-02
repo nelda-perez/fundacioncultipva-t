@@ -1,11 +1,13 @@
-function ArticleAction({ title, description, helps }) {
+import styles from './articleAction.module.css'
+
+function ArticleAction({ title, description, helps, nameId }) {
   return (
-    <article>
+    <article id={nameId} className={styles.container}>
       <h3>{title}</h3>
-      <p>{description}</p>
+      <p className={styles.description}>{description}</p>
       <ul>
-        {helps.map((help) => (
-          <li>{help}</li>
+        {helps.map((help, index) => (
+          <li key={index}>{help}</li>
         ))}
       </ul>
     </article>
