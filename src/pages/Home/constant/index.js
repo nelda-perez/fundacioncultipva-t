@@ -1,2 +1,1 @@
-export * from "./Involve.contant";
-export * from "./Program.constant";
+export * from './Involve.contant';
