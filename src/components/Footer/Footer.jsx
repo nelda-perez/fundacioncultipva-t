@@ -1,4 +1,3 @@
-import React from "react";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -27,9 +26,6 @@ function footer() {
         <ItemFooter icon="info" link="/rte" content="Transparencia" />
       </div>
       <div className="containerIcon">
-        <a href="https://www.facebook.com/CultipvaT" target="_blank">
-          {<FacebookIcon sx={{ fontSize: "35px" }} />}
-        </a>
         <a href="https://instagram.com/cultipvat" target="_blank">
           {<InstagramIcon sx={{ fontSize: "35px" }} />}
         </a>
