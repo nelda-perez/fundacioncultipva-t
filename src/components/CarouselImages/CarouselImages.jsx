@@ -53,14 +53,14 @@ const CarouselImages = forwardRef(({ images, autoPlay, hasWords }, ref) => {
     },
   }));
 
-  // useEffect(() => {
-  //   if (autoPlay) {
-  //     const interval = setInterval(() => {
-  //       selectNewImage(images);
-  //     }, 5000);
-  //     return () => clearInterval(interval);
-  //   }
-  // });
+  useEffect(() => {
+    if (autoPlay) {
+      const interval = setInterval(() => {
+        selectNewImage(images);
+      }, 5000);
+      return () => clearInterval(interval);
+    }
+  });
 
   return (
     <>

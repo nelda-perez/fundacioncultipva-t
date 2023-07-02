@@ -6,6 +6,7 @@ export * from './About';
 export { default as ArticleAction } from './Actions/components/ArticleAction/ArticleAction';
 export * from './Actions/components';
 export * from './Actions';
+export { default as History } from './Histoy/History';
 export * from './Home/constant';
 export * from './Home';
 export { default as NotFound } from './NotFound/NotFound';
