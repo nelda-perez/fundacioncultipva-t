@@ -17,8 +17,7 @@ function App() {
     ROUTES.HOME,
     ROUTES.ACTION,
     ROUTES.PARTICIPATE,
-    ROUTES.HISTORY,
-    ROUTES.CONTACT,
+    ROUTES.HISTORY
   ];
   return (
     <div className="principalContainer__app">
