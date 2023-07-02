@@ -1,7 +1,15 @@
 import "./App.css";
 import { Header, Footer, Iconwp } from "./components";
 import { ROUTES } from "./constant/routes";
-import { About, Actions, History, Home, NotFound, Participate, RTE } from "./pages";
+import {
+  About,
+  Actions,
+  History,
+  Home,
+  NotFound,
+  Participate,
+  RTE,
+} from "./pages";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -13,7 +21,7 @@ function App() {
     ROUTES.CONTACT,
   ];
   return (
-    <div>
+    <div className="principalContainer__app">
       <Header pages={headerPages} />
       <main>
         <Routes>
@@ -27,7 +35,7 @@ function App() {
         </Routes>
         <Iconwp />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
