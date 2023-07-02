@@ -1,0 +1,10 @@
+.text {
+    text-align: center;
+    font-size: 26px;
+}
+
+.containerButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -11,13 +11,12 @@ import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import { AppBar } from "../../utilities";
-import { PAGES } from "./constant";
+import { ROUTES } from "../../constant";
 
-function Header() {
+function Header({ pages }) {
   const [anchorElNav, setAnchorElNav] = useState(null);
 
   const handleOpenNavMenu = (event) => {
-    console.log(event.currentTarget);
     setAnchorElNav(event.currentTarget);
   };
 
@@ -33,7 +32,7 @@ function Header() {
           background: "var(--main-gradient)",
         }}>
         <Container maxWidth="xl">
-          <Toolbar disableGutters>
+          <Toolbar sx={{ height: "64px" }}>
             <Typography
               variant="h6"
               noWrap
@@ -44,7 +43,7 @@ function Header() {
                 textDecoration: "none",
                 fontFamily: "inherit",
               }}>
-              <NavLink to="/" className="link">
+              <NavLink to={ROUTES.HOME.path} className="link">
                 FUNDACIÓN CULTIPVA-T
               </NavLink>
             </Typography>
@@ -53,15 +52,15 @@ function Header() {
                 flexGrow: 1,
                 display: { xs: "none", md: "flex" },
                 justifyContent: "flex-end",
-                gap: '15px'
+                gap: "15px",
               }}>
-              {PAGES.map((page) => (
+              {pages.map((page) => (
                 <NavLink
-                  to={page.route}
-                  key={page.page}
+                  to={page.path}
+                  key={page.path}
                   className="link"
                   onClick={handleCloseNavMenu}>
-                  {page.page}
+                  {page.name}
                 </NavLink>
               ))}
             </Box>
@@ -77,7 +76,7 @@ function Header() {
                 textDecoration: "none",
                 fontFamily: "inherit",
               }}>
-              <NavLink to="/" className="link">
+              <NavLink to={ROUTES.HOME.path} className="link">
                 FUNDACIÓN CULTIPVA-T
               </NavLink>
             </Typography>
@@ -114,13 +113,13 @@ function Header() {
                 sx={{
                   display: { xs: "block", md: "none" },
                 }}>
-                {PAGES.map((page) => (
-                  <MenuItem key={page.page}>
+                {pages.map((page) => (
+                  <MenuItem key={page.path}>
                     <NavLink
-                      to={page.route}
+                      to={page.path}
                       className="color_black"
                       onClick={handleCloseNavMenu}>
-                      {page.page}
+                      {page.name}
                     </NavLink>
                   </MenuItem>
                 ))}
@@ -128,7 +127,7 @@ function Header() {
             </Box>
           </Toolbar>
           <Toolbar>
-            <Link to="/">
+            <Link to={ROUTES.HOME.path}>
               <IconButton sx={{ p: 0 }}>
                 <Avatar
                   alt="Logo Fundacion Cultivando Principios y Valores Para Transformar"
@@ -140,7 +139,7 @@ function Header() {
             <Typography
               variant="h6"
               noWrap
-              sx={{ flexGrow: 1, fontSize: "32px" }}
+              sx={{ flexGrow: 1, fontSize: "32px", fontFamily: "var(--family)" }}
               component="div">
               Reconstruyendo nuestra nación una vida a la vez
             </Typography>
