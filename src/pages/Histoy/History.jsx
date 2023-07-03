@@ -29,7 +29,7 @@ function History() {
         una nación enferma.
       </p>
       <p>
-        La fundación Culstivap-t fue creada el <b>___________ (fecha)</b> y registrada
+        La fundación Culstivap-t fue creada el <b>25 de Julio de 2019</b> y registrada
         en cámara de comercio <b>___________ (fecha)</b> Hasta ahora, Cultivap-t ha
         actuado en las comunidades de el sector de Altos de la Estancia en
         Ciudad Bolívar.
