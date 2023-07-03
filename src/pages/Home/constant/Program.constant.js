@@ -3,8 +3,8 @@ import proyectoImage from "../../../assets/proyecto.png";
 export const PROGRAMS = [
   {
     key: 0,
-    title: "Jóvenes no adoptados",
-    info: "Los huérfanos no adoptados mayores de 15 años, internos en el sistema de protección del Estado, fueron nuestra inspiración para el desarrollo de la visión. Hoy consideramos, que aun los que conviven con sus padres, o familiares cercanos, pero ausentes, deben ser incluidos desde los 12 años.",
+    title: "Brindemos un futuro prometedor a jóvenes en busca de hogar y amor",
+    info: "En nuestro país, miles de niños y jóvenes se ven privados del amor y cuidado de una familia. Ellos son nuestra inspiración para crear una visión en la que todos ellos tengan la oportunidad de encontrar un hogar amoroso y estable. Desde aquellos que viven en el sistema de protección del Estado, hasta aquellos que conviven con sus padres o familiares ausentes, todos merecen un futuro mejor. Con tu apoyo, podemos hacer realidad esta visión y brindarles la oportunidad de tener una vida plena y feliz. ¡Únete a nosotros en esta misión de amor y esperanza para nuestros niños y jóvenes!",
     link: "http://www.youtube.com/embed/jtDVX_aEy7o",
   },
   {

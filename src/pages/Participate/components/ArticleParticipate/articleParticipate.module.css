@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container h3 {
+  font-size: 26px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.image {
+  width: 80%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+  align-self: center;
+}
+
+.list::marker {
+  color: var(--primary-color);
+}

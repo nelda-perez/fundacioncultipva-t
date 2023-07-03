@@ -2,7 +2,6 @@ import AddIcCallIcon from "@mui/icons-material/AddIcCall";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import AddLocationAltIcon from "@mui/icons-material/AddLocationAlt";
 import InfoIcon from "@mui/icons-material/Info";
-import { Link } from "react-router-dom";
 
 function ItemFooter({ icon, link, content }) {
   const ICON = {
@@ -15,7 +14,7 @@ function ItemFooter({ icon, link, content }) {
     <div>
       <span className="span-footer">
         {ICON[icon]}
-        <Link to={link}>{content}</Link>
+        <a href={link} target="_blank">{content}</a>
       </span>
     </div>
   );
