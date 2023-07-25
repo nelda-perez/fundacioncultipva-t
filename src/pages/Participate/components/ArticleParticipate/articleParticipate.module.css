@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px dashed var(--primary-color);
+}
+
+.container figure {
+  display: flex;
+}
+
+.container h3 {
+  font-size: 26px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container section {
+  padding: 10px;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.image {
+  width: 40%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+  align-self: center;
+}
+
+.list::marker {
+  color: var(--primary-color);
+}
+
+.text {
+  margin: 0;
+}
+
+.containerLinks a {
+  color: black;
+  word-break: break-word;
+}
+
+.containerLinks a:hover {
+  color: var(--primary-color);
+}
+
+@media (width <= 800px) {
+  .container figure {
+    flex-direction: column;
+    margin: 10px 0;
+  }
+
+  .image {
+    width: 100%;
+  }
+}
