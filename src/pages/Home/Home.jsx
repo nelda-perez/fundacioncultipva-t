@@ -21,13 +21,15 @@ function Home() {
     <>
       <Carousel images={images} autoPlay={true} />
       <ContainerPage>
-        <p className={styleHome.text}>
+        <p className={`${styleHome.text} ${styleHome.principalText}`}>
           Somos una organización internacional que trabaja en la transformación
-          de la vida de niños, jóvenes y familias.
+        </p>
+        <p className={`${styleHome.text} ${styleHome.principalText}`}>
+          De la vida de niños, jóvenes y familias.
         </p>
         <p className={styleHome.text}>
           Servimos como mentores para que los principios y valores bíblicos
-          traigan transformación que necesitan sus comunidades. Servimos para
+          traigan transformación que necesitan las comunidades. Trabajamos para
           expresar el amor de Dios y contribuir con el plan divino de restaurar
           la nación impactando una vida a la vez.
         </p>

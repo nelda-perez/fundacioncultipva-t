@@ -6,14 +6,15 @@
 
 html {
   scroll-behavior: smooth;
+  font-family: "Poppins", Helvetica, sans-serif;
 }
 
 :root {
   /* --main-gradient: linear-gradient(to bottom right, #209c5e, #2ad99c); */
   --main-gradient: linear-gradient(
-    to bottom right,
+    130deg,
     var(--secondary-color) 5%,
-    var(--primary-color) 50%,
+    var(--primary-color) 30%,
     var(--three-color) 100%
   );
   /* --main-gradient: #2ad99c;
@@ -24,7 +25,7 @@ html {
   --main-color: #2ad99c;
   --primary-color: #0f7431;
   --secondary-color: #755b03;
-  --three-color: #af9523;
+  --three-color: #cfab0a;
   --four-color: #4caa60;
   --wp-color: #119c6b;
   --family: "Poppins", sans-serif;
@@ -94,7 +95,7 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  margin-top: 182px;
+  margin-top: 264px;
   margin-bottom: 30px;
   gap: 60px;
   height: auto;
@@ -105,6 +106,12 @@ main {
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
+}
+
+@media (width <= 800px) {
+  .displayHeader {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 650px) {

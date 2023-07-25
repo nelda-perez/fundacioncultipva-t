@@ -16,6 +16,8 @@ function Participate() {
             key={part.key}
             contributions={part.contributions}
             title={part.title}
+            description={part.description}
+            links={part.links}
             img={images[index]}
           />
         ))}

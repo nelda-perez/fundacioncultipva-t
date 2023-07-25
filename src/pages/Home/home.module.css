@@ -3,6 +3,10 @@
     font-size: 26px;
 }
 
+.principalText {
+    margin: 0;
+}
+
 .containerButton {
     display: flex;
     align-items: center;
