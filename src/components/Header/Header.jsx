@@ -126,20 +126,25 @@ function Header({ pages }) {
               </Menu>
             </Box>
           </Toolbar>
-          <Toolbar>
+          <Toolbar sx={{ justifyContent: "center" }}>
             <Link to={ROUTES.HOME.path}>
               <IconButton sx={{ p: 0 }}>
                 <Avatar
                   alt="Logo Fundacion Cultivando Principios y Valores Para Transformar"
                   src={logo}
-                  sx={{ width: "120px", height: "120px", p: "10px" }}
+                  sx={{ width: "200px", height: "200px", p: "0" }}
                 />
               </IconButton>
             </Link>
             <Typography
+              className="displayHeader"
               variant="h6"
               noWrap
-              sx={{ flexGrow: 1, fontSize: "32px", fontFamily: "var(--family)" }}
+              sx={{
+                flexGrow: 1,
+                fontSize: "32px",
+                fontFamily: "var(--family)",
+              }}
               component="div">
               Reconstruyendo nuestra nación una vida a la vez
             </Typography>

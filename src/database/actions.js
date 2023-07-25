@@ -47,21 +47,21 @@ export const CARD_ACTIONS = [
     key: 1,
     title: "JOVENES EN CONDICIONES DE ORFANDAD",
     description:
-      "Apoyamos a jóvenes en orfandad en su crecimiento personal y descubrimiento del propósito de vida.",
+      "Apoyamos a jóvenes en orfandad en su crecimiento personal y descubrimiento del propósito de vida. (Fundación Funaires y Vivencias Colombia)",
     path: "jovenes",
   },
   {
     key: 2,
     title: "Familias saludables",
     description:
-      "Descubre cómo promovemos el estudio y desarrollo de emprendimientos entre los involucrados y sus familias.",
+      "Descubre cómo promovemos el estudio y desarrollo de emprendimientos entre los involucrados y sus familias. (Fundación Amor Extremo y la Fundación Morada de Gracia)",
     path: "familias",
   },
   {
     key: 3,
     title: "Acompañamiento  para desarrollar emprendimientos",
     description:
-      "Descubre cómo podemos ayudarte a canalizar tu pasión y convertirla en un emprendimiento exitoso.",
+      "Descubre cómo podemos ayudarte a canalizar tu pasión y convertirla en un emprendimiento exitoso y sostenible.",
     path: "emprende",
   },
 ];
