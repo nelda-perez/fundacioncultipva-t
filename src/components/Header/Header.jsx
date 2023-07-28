@@ -161,6 +161,7 @@ function Header({ pages }) {
                 flexGrow: 1,
                 fontSize: "32px",
                 fontFamily: "var(--family)",
+                textAlign: 'center'
               }}
               component="div">
               Reconstruyendo nuestra nación una vida a la vez
