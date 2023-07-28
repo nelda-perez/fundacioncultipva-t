@@ -31,8 +31,8 @@ function History() {
         una nación enferma.
       </p>
       <p>
-        La fundación CULTIPVA-T fue creada el <b>07 de Julio de 2019</b> y
-        registrada ante Cámara de Comercio <b>el 25 de Julio de 2019</b>. Hasta
+        La fundación CULTIPVA-T fue creada el 07 de Julio de 2019 y
+        registrada ante Cámara de Comercio el 25 de Julio de 2019. Hasta
         ahora, CULTIPVA-T ha actuado en las comunidades del sector de Altos de
         la Estancia, localidad Ciudad Bolívar en la ciudad de Bogotá - Colombia.
       </p>
