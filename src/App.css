@@ -10,11 +10,9 @@ html {
 }
 
 :root {
-  /* --main-gradient: linear-gradient(to bottom right, #209c5e, #2ad99c); */
   --main-gradient: linear-gradient(
-    130deg,
-    var(--secondary-color) 5%,
-    var(--primary-color) 30%,
+    0deg,
+    var(--primary-color) 70%,
     var(--three-color) 100%
   );
   /* --main-gradient: #2ad99c;
@@ -23,7 +21,8 @@ html {
   --main-gradient: #f5ce25;
   --main-gradient: #4caa60; */
   --main-color: #2ad99c;
-  --primary-color: #0f7431;
+  /* --primary-color: #0f7431; */
+  --primary-color: #2ad99c;
   --secondary-color: #755b03;
   --three-color: #cfab0a;
   --four-color: #4caa60;
