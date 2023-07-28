@@ -32,7 +32,23 @@ function Header({ pages }) {
           background: "var(--main-gradient)",
         }}>
         <Container maxWidth="xl">
-          <Toolbar sx={{ height: "64px" }}>
+          <Toolbar>
+            <Typography
+              className="displayHeader"
+              variant="h6"
+              noWrap
+              sx={{
+                color: "inherit",
+                textDecoration: "none",
+                fontFamily: "inherit",
+                marginLeft: "36px",
+              }}>
+              <NavLink to={ROUTES.HOME.path} className="link">
+                FUNDACIÓN CULTIVANDO PRINCIPIOS Y VALORES PARA TRANSFORMAR
+              </NavLink>
+            </Typography>
+          </Toolbar>
+          <Toolbar>
             <Typography
               variant="h6"
               noWrap
@@ -42,9 +58,10 @@ function Header({ pages }) {
                 color: "inherit",
                 textDecoration: "none",
                 fontFamily: "inherit",
+                marginLeft: "36px",
               }}>
               <NavLink to={ROUTES.HOME.path} className="link">
-                FUNDACIÓN CULTIPVA-T
+                CULTIPVA-T
               </NavLink>
             </Typography>
             <Box
@@ -77,7 +94,7 @@ function Header({ pages }) {
                 fontFamily: "inherit",
               }}>
               <NavLink to={ROUTES.HOME.path} className="link">
-                FUNDACIÓN CULTIPVA-T
+                CULTIPVA-T
               </NavLink>
             </Typography>
 
