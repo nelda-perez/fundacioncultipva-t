@@ -1,5 +1,4 @@
 import MenuIcon from "@mui/icons-material/Menu";
-import { Avatar } from "@mui/material";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import IconButton from "@mui/material/IconButton";
@@ -12,6 +11,7 @@ import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import { AppBar } from "../../utilities";
 import { ROUTES } from "../../constant";
+import style from "./header.module.scss";
 
 function Header({ pages }) {
   const [anchorElNav, setAnchorElNav] = useState(null);
@@ -33,37 +33,18 @@ function Header({ pages }) {
         }}>
         <Container maxWidth="xl">
           <Toolbar>
-            <Typography
-              className="displayHeader"
-              variant="h6"
-              noWrap
-              sx={{
-                color: "inherit",
-                textDecoration: "none",
-                fontFamily: "inherit",
-                marginLeft: "36px",
-              }}>
-              <NavLink to={ROUTES.HOME.path} className="link">
-                FUNDACIÓN CULTIVANDO PRINCIPIOS Y VALORES PARA TRANSFORMAR
-              </NavLink>
-            </Typography>
-          </Toolbar>
-          <Toolbar>
-            <Typography
-              variant="h6"
-              noWrap
-              sx={{
-                mr: 2,
-                display: { xs: "none", md: "flex" },
-                color: "inherit",
-                textDecoration: "none",
-                fontFamily: "inherit",
-                marginLeft: "36px",
-              }}>
-              <NavLink to={ROUTES.HOME.path} className="link">
-                CULTIPVA-T
-              </NavLink>
-            </Typography>
+            <Link to={ROUTES.HOME.path} className={style.containerLogo}>
+              <figure>
+                <img src={logo} alt="Logo Fundacion Cultipva-t" />
+              </figure>
+              <div className={style.textLogo}>
+                <p className={style.firstText}>CULTIPVA-T</p>
+                <p className={style.secondText}>
+                  Cultivando principios y valores para transformar
+                </p>
+              </div>
+            </Link>
+
             <Box
               sx={{
                 flexGrow: 1,
@@ -81,22 +62,6 @@ function Header({ pages }) {
                 </NavLink>
               ))}
             </Box>
-
-            <Typography
-              variant="h5"
-              noWrap
-              sx={{
-                mr: 2,
-                display: { xs: "flex", md: "none" },
-                flexGrow: 1,
-                color: "inherit",
-                textDecoration: "none",
-                fontFamily: "inherit",
-              }}>
-              <NavLink to={ROUTES.HOME.path} className="link">
-                CULTIPVA-T
-              </NavLink>
-            </Typography>
 
             <Box
               sx={{
@@ -144,28 +109,7 @@ function Header({ pages }) {
             </Box>
           </Toolbar>
           <Toolbar sx={{ justifyContent: "center" }}>
-            <Link to={ROUTES.HOME.path}>
-              <IconButton sx={{ p: 0 }}>
-                <Avatar
-                  alt="Logo Fundacion Cultivando Principios y Valores Para Transformar"
-                  src={logo}
-                  sx={{ width: "200px", height: "200px", p: "0" }}
-                />
-              </IconButton>
-            </Link>
-            <Typography
-              className="displayHeader"
-              variant="h6"
-              noWrap
-              sx={{
-                flexGrow: 1,
-                fontSize: "32px",
-                fontFamily: "var(--family)",
-                textAlign: 'center'
-              }}
-              component="div">
-              Reconstruyendo nuestra nación una vida a la vez
-            </Typography>
+            <span className={style.slogan}>Reconstruyendo nuestra nación una vida a la vez</span>
           </Toolbar>
         </Container>
       </AppBar>

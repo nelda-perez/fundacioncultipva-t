@@ -1,5 +1,5 @@
 import Card from "../Card/Card";
-import style from "./containerCard.module.css";
+import style from "./containerCard.module.scss";
 
 function ContainerCard({ infoCards, principalPath }) {
   return (

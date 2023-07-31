@@ -1,4 +1,4 @@
-import styles from "./articleParticipate.module.css";
+import styles from "./articleParticipate.module.scss";
 
 function ArticleParticipate({ title, contributions, img, description, links }) {
   return (

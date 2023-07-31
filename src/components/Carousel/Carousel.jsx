@@ -1,4 +1,4 @@
-import styles from "./carousel.module.css";
+import styles from "./carousel.module.scss";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import CarouselImages from "../CarouselImages/CarouselImages";
 import { useRef } from "react";

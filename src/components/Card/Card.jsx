@@ -1,5 +1,5 @@
 import ActionButton from "../ActionButton/ActionButton";
-import stylesCard from "./card.module.css";
+import stylesCard from "./card.module.scss";
 
 function Card({ title, description, path }) {
   return (

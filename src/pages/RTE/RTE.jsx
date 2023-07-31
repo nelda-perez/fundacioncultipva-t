@@ -1,6 +1,6 @@
 import { ContainerPage } from "../../components";
 import { ItemPdf } from "./components";
-import "./rte.css";
+import "./rte.scss";
 
 function RTE() {
   return (

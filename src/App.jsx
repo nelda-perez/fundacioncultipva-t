@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import { Header, Footer, Iconwp } from "./components";
 import { ROUTES } from "./constant/routes";
 import {

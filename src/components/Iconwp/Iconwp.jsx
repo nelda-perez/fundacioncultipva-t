@@ -1,4 +1,4 @@
-import style from "./btn-whatsapp.module.css";
+import style from "./btn-whatsapp.module.scss";
 import whatsAppImg from "../../assets/icon-whatsapp.svg";
 
 function Iconwp() {

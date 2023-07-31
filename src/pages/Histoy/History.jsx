@@ -1,5 +1,5 @@
 import { ContainerPage } from "../../components";
-import styles from "./history.module.css";
+import styles from "./history.module.scss";
 
 function History() {
   return (

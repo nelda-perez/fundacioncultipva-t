@@ -1,4 +1,4 @@
-import "../ImageCard.css";
+import "../ImageCard.scss";
 
 function ImageCards({ member }) {
   const { imageUrl, name, job, description } = member;

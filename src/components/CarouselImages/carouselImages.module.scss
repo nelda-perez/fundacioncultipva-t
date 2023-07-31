@@ -26,6 +26,7 @@
   text-align: center;
   padding: 0 200px;
   user-select: none;
+  backdrop-filter: blur(7px);
 }
 
 .overlay p {

@@ -13,7 +13,7 @@ import {
 } from "../../components";
 import { ROUTES } from "../../constant";
 import { CARD_ACTIONS } from "../../database";
-import styleHome from "./home.module.css";
+import styleHome from "./home.module.scss";
 
 function Home() {
   const images = [slide1, slide2, slide3, slide4, slide5, slide6, slide8];

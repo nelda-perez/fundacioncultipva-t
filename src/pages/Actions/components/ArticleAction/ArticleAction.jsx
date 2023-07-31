@@ -1,4 +1,4 @@
-import styles from './articleAction.module.css'
+import styles from './articleAction.module.scss'
 
 function ArticleAction({ title, description, helps, nameId }) {
   return (

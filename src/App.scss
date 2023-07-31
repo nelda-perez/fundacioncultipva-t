@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Poppins:wght@300;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -15,19 +16,13 @@ html {
     var(--primary-color) 70%,
     var(--three-color) 100%
   );
-  /* --main-gradient: #2ad99c;
-  --main-gradient: #24b453;
-  --main-gradient: #967402;
-  --main-gradient: #f5ce25;
-  --main-gradient: #4caa60; */
   --main-color: #2ad99c;
-  /* --primary-color: #0f7431; */
   --primary-color: #2ad99c;
+  --pc-transparent: #2ad99c86;
   --secondary-color: #755b03;
   --three-color: #cfab0a;
-  --four-color: #4caa60;
-  --wp-color: #119c6b;
   --family: "Poppins", sans-serif;
+  --second-family: "Euphoria Script", cursive;
   height: auto;
   min-height: 100%;
   font-display: swap;
@@ -64,40 +59,44 @@ a {
   text-decoration: none;
 }
 
-.container-whatsapp__icon {
-  cursor: pointer;
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  right: 22px;
-  bottom: 100px;
-  color: #f1f1f1;
-  background: var(--wp-color);
-  padding: 4px 4px 6px 6px;
-  border-radius: 50%;
-  -webkit-box-shadow: 0px 0px 6px 3px rgba(112, 112, 112, 0.68);
-  -moz-box-shadow: 0px 0px 6px 3px rgba(112, 112, 112, 0.68);
-  box-shadow: 0px 0px 6px 3px rgba(112, 112, 112, 0.68);
-  z-index: 100;
-}
-
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-image: linear-gradient(to bottom right, #f1f1f1, #c4c5c4);
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    margin-left: 40px;
+    height: 80%;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #5f5f5f;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--three-color);
+    border-radius: 5px;
+    height: 80px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: var(--pc-transparent);
+  }
 }
 
 main {
   display: flex;
   flex-direction: column;
-  margin-top: 325px;
+  margin-top: 210px;
   margin-bottom: 30px;
   gap: 60px;
   height: auto;
+
+  @media (width <= 500px) {
+    margin-top: 180px;
+  }
 }
 
 .principalContainer__app {

@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import style from "./actionButton.module.css";
+import style from "./actionButton.module.scss";
 
 function ActionButton({ textButton, path }) {
   return (

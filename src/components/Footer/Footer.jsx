@@ -2,7 +2,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import { ItemFooter } from "./component";
-import "./footer.css";
+import "./footer.scss";
 
 function footer() {
   return (

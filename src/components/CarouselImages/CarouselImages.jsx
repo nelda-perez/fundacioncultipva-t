@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import styles from "./carouselImages.module.css";
+import styles from "./carouselImages.module.scss";
 import { forwardRef } from "react";
 import { useRef } from "react";
 import { useImperativeHandle } from "react";
