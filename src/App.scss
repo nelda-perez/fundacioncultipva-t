@@ -94,7 +94,7 @@ main {
   gap: 60px;
   height: auto;
 
-  @media (width <= 500px) {
+  @media (max-width: 500px) {
     margin-top: 180px;
   }
 }
@@ -106,7 +106,7 @@ main {
   min-height: 100vh;
 }
 
-@media (width <= 800px) {
+@media (max-width: 800px) {
   .displayHeader {
     display: none;
   }

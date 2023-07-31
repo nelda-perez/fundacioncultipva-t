@@ -47,7 +47,7 @@
   color: var(--primary-color);
 }
 
-@media (width <= 800px) {
+@media (max-width: 800px) {
   .container figure {
     flex-direction: column;
     margin: 10px 0;

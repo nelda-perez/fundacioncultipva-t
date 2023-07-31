@@ -23,7 +23,7 @@
   right: 3%;
 }
 
-@media (width <= 450px) {
+@media (max-width: 450px) {
   .containerImg button {
     display: none;
   }
