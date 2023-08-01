@@ -20,6 +20,7 @@ function Actions() {
         <ArticleAction
           nameId={PAGE_ACTIONS[0].path}
           title={PAGE_ACTIONS[0].title}
+          boldDesc={PAGE_ACTIONS[0].boldDesc}
           description={PAGE_ACTIONS[0].description}
           helps={PAGE_ACTIONS[0].wayHelps}
         />

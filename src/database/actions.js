@@ -3,7 +3,8 @@ export const PAGE_ACTIONS = [
     key: 1,
     title: "JOVENES EN CONDICIONES DE ORFANDAD",
     description:
-      "Nuestro compromiso con las personas que viven en medio de condiciones de horfandad nos lleva a trabajar con cada involucrado en el ser, hacer y tener:",
+      "Nuestro compromiso con las personas que viven en medio de condiciones de horfandad nos lleva a trabajar con cada involucrado en el ",
+    boldDesc: "ser, hacer y tener:",
     wayHelps: [
       "Establecemos espacios para que jóvenes no-adoptados en el sistema de protección nacional encuentren respuestas a sus necesidades, extendemos nuestras acciones a otros jóvenes en condiciones de abandono u orfandad",
       "Construimos rutas para descubrir habilidades, identificar pasiones, desarrollar dones, perfeccionar  talentos y perfilar, en cada beneficiado, su propósito en la vida.",
@@ -21,7 +22,7 @@ export const PAGE_ACTIONS = [
     description: "",
     wayHelps: [
       "Facilitamos, a los padres, espacios de crecimiento personal, matrimonial y familiar.",
-      "Mantenemos alianzas con las entidades Fundación Amor Extremo y Fundación Morada de Gracia para mejorar el alcance de nuestros  esfuerzos y beneficiar a jóvenes en condiciones de orfandad.",
+      "Mantenemos alianzas con las entidades Fundación Amor Extremo y Morada de Gracia, para mejorar el alcance de nuestros esfuerzos y beneficiar a jóvenes en condiciones de orfandad.",
       "Impulsamos escuelas para padres.",
       "Promovemos a los involucarados para que estudien y desarrollen emprendimientos.",
       "Trabajamos con cada familia involucrada para que dimensionen el rol que les corresponde a los padres frente a sus hijos.",
