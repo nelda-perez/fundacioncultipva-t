@@ -1,12 +1,13 @@
 import styles from "./articleParticipate.module.scss";
 
-function ArticleParticipate({ title, contributions, img, description, links }) {
+function ArticleParticipate({ title, contributions, img, description, links, metafora }) {
   return (
     <article className={styles.container}>
       <figure>
         <img className={styles.image} src={img} alt={title} />
         <section>
           <h3>{title}</h3>
+          {metafora && <div className={styles.metafora}><span>{metafora}</span></div>}
           {description && <p className={styles.text}>{description}</p>}
           <ul>
             {contributions.map((cont, index) => (
@@ -22,7 +23,7 @@ function ArticleParticipate({ title, contributions, img, description, links }) {
           <h3>Links</h3>
           {links.map((link) => (
             <a href={link.routerLink} key={link.routerLink}>
-              {link.label}: {link.routerLink}
+              {link.label ? `${link.label}:` : ''} {link.routerLink}
             </a>
           ))}
         </section>
