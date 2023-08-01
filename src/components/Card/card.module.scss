@@ -9,6 +9,7 @@
   transition: 0.5s ease-out;
   overflow: visible;
   cursor: pointer;
+  border-color: var(--three-color);
 }
 
 .cardDetails {
@@ -52,7 +53,6 @@
 }
 
 .card:hover {
-  border-color: var(--three-color);
   box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
 }
 
