@@ -35,6 +35,7 @@ function footer() {
           {<YouTubeIcon sx={{ fontSize: "35px" }} />}
         </a>
       </div>
+      <p className="textCopyrigth">Copyright © 2023. Todos los derechos reservados.</p>
     </footer>
   );
 }
