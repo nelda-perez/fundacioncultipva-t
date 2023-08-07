@@ -56,7 +56,7 @@ function Header({ pages }) {
                 <NavLink
                   to={page.path}
                   key={page.path}
-                  className="link"
+                  className={({ isActive }) => (isActive ? "link active" : "link")}
                   onClick={handleCloseNavMenu}>
                   {page.name}
                 </NavLink>
@@ -99,7 +99,7 @@ function Header({ pages }) {
                   <MenuItem key={page.path}>
                     <NavLink
                       to={page.path}
-                      className="color_black"
+                      className="color_black all_link"
                       onClick={handleCloseNavMenu}>
                       {page.name}
                     </NavLink>
@@ -109,7 +109,9 @@ function Header({ pages }) {
             </Box>
           </Toolbar>
           <Toolbar sx={{ justifyContent: "center" }}>
-            <span className={style.slogan}>Reconstruyendo nuestra nación una vida a la vez</span>
+            <span className={style.slogan}>
+              Reconstruyendo nuestra nación una vida a la vez
+            </span>
           </Toolbar>
         </Container>
       </AppBar>
