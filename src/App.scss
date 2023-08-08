@@ -72,9 +72,10 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: url('./assets/background.webp');
-  background-size: cover;
-  background-position: center;
+  // background: url('./assets/background.webp');
+  // background-size: cover;
+  // background-position: center;
+  background: radial-gradient(circle, rgba(152,239,216,1) 0%, rgba(111,230,195,1) 35%, rgba(12,211,143,1) 100%);
   // background-image: linear-gradient(to bottom right, #f1f1f1, #c4c5c4);
 
   &::-webkit-scrollbar {
