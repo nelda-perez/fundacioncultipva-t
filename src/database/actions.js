@@ -3,14 +3,14 @@ export const PAGE_ACTIONS = [
     key: 1,
     title: "JOVENES EN CONDICIONES DE ORFANDAD",
     description:
-      "Nuestro compromiso con las personas que viven en medio de condiciones de horfandad nos lleva a trabajar con cada involucrado en el ",
+      "Nuestro compromiso con las personas que viven en medio de condiciones de orfandad nos lleva a trabajar con cada involucrado en el ",
     boldDesc: "ser, hacer y tener:",
     wayHelps: [
       "Establecemos espacios para que jóvenes no-adoptados en el sistema de protección nacional encuentren respuestas a sus necesidades, extendemos nuestras acciones a otros jóvenes en condiciones de abandono u orfandad",
       "Construimos rutas para descubrir habilidades, identificar pasiones, desarrollar dones, perfeccionar  talentos y perfilar, en cada beneficiado, su propósito en la vida.",
       "Proveemos herramientas para que los  involucrados definan su proyecto de vida personal.",
       "Contribuimos facilitando el acceso a herramientas académicas para que niños, jóvenes y adultos obtengan títulos formales en educación media y técnica.",
-      "Hacemos alianzas con entidades como Fundación Funaires y Vivencias Colombia para aumentar el impacto de nuestras acciones, y beneficiar a jóvenes en condiciones de orfandad.",
+      "Hacemos alianzas con entidades como Fundación Funaires y Vivencias Colombia, para aumentar el impacto de nuestras acciones y beneficiar a jóvenes en condiciones de orfandad.",
       "Desarrollamos acciones de mentoreo:  académico, técnico, emprendimiento, liderazgo y familiar.",
       "Realizamos asesorías en comunidades interesadas en procesos de transformación.",
     ],

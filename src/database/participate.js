@@ -10,7 +10,7 @@ export const PARTICIPATE = [
       "Mayor de 18 años.",
       "No es necesaria una experiencia ministerial, pero si tener un corazón aprendiz y de servicio.",
       "Debe ser una persona que tenga comunión con Dios a través de su Palabra.",
-      "Necesariamente debe ser entrenado comenzando con el curso virtual de Alianza para el Discipulado de las Naciones. - CORAM DEO",
+      "Necesariamente debe ser entrenado comenzando con el curso virtual de Alianza para el Discipulado de las Naciones. - CORAM DEO y MISION ANTIVIRUS",
     ],
     links: [
       { label: "", routerLink: "https://coramdeo.com/" },
