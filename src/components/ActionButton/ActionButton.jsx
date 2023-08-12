@@ -1,11 +1,19 @@
 import { NavLink } from "react-router-dom";
 import style from "./actionButton.module.scss";
 
-function ActionButton({ textButton, path }) {
+function ActionButton({ textButton, path, isButton = false }) {
   return (
-    <NavLink to={path} className={style.button}>
-      {textButton}
-    </NavLink>
+    <>
+      {isButton ? (
+        <button className={style.button} type="submit">
+          {textButton}
+        </button>
+      ) : (
+        <NavLink to={path} className={style.button}>
+          {textButton}
+        </NavLink>
+      )}
+    </>
   );
 }
 export default ActionButton;

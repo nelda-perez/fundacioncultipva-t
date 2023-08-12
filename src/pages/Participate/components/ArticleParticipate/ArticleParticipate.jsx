@@ -1,13 +1,24 @@
 import styles from "./articleParticipate.module.scss";
 
-function ArticleParticipate({ title, contributions, img, description, links, metafora }) {
+function ArticleParticipate({
+  title,
+  contributions,
+  img,
+  description,
+  links,
+  metafora,
+}) {
   return (
     <article className={styles.container}>
       <figure>
         <img className={styles.image} src={img} alt={title} />
         <section>
           <h3>{title}</h3>
-          {metafora && <div className={styles.metafora}><span>{metafora}</span></div>}
+          {metafora && (
+            <div className={styles.metafora}>
+              <span>{metafora}</span>
+            </div>
+          )}
           {description && <p className={styles.text}>{description}</p>}
           <ul>
             {contributions.map((cont, index) => (
@@ -19,13 +30,20 @@ function ArticleParticipate({ title, contributions, img, description, links, met
         </section>
       </figure>
       {links && (
-        <section className={styles.containerLinks}>
+        <section>
           <h3>Links</h3>
-          {links.map((link) => (
-            <a href={link.routerLink} key={link.routerLink}>
-              {link.label ? `${link.label}:` : ''} {link.routerLink}
-            </a>
-          ))}
+          <div className={styles.containerLinks}>
+            {links.map((link) => (
+              <>
+                <span>
+                  Da click para el curso de 
+                  <a href={link.routerLink} key={link.routerLink}>
+                    {link.label}
+                  </a>
+                </span>
+              </>
+            ))}
+          </div>
         </section>
       )}
     </article>
