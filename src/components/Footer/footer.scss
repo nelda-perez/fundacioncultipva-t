@@ -1,5 +1,5 @@
 footer {
-  background: #000000cc;
+  background: #ffffff;
   margin-top: 100px;
   position: relative;
   min-height: 100px;
@@ -13,7 +13,7 @@ footer {
   gap: 30px;
 
   .textCopyrigth {
-    color: white;
+    color: #000000;
   }
 
   .containerRows {
@@ -25,7 +25,7 @@ footer {
     padding: 0 50px;
 
     @media (max-width: 500px) {
-      padding: 0;
+      padding: 0 10px;
     }
 
     .containerItems {
@@ -35,24 +35,12 @@ footer {
     }
   }
 
-  .containerTerms {
-    @media (max-width: 900px) {
-      margin: 0 auto;
+  a {
+    color: black;
+
+    &:hover {
+      color: var(--three-color);
     }
-  }
-
-  .footerLogo {
-    width: 100px;
-    height: 100px;
-
-    img {
-      width: 100%;
-      height: 100%;
-    }
-  }
-
-  a:hover {
-    color: var(--three-color);
   }
 
   .wave {
@@ -65,6 +53,7 @@ footer {
       height: 100px;
       background: url("../../assets/wave.svg");
       transform: scaleY(-1);
+      filter: invert(1);
       background-size: 1220px 100px;
       content: "";
     }
@@ -93,10 +82,13 @@ footer {
 }
 
 .span-footer {
-  color: rgb(244, 241, 241);
   font-size: 16px;
   display: flex;
   flex: 1 0 260px;
+
+  svg {
+    color: black;
+  }
 }
 
 a {
@@ -115,7 +107,7 @@ a {
   align-items: center;
   margin: 0 auto;
 
-  a:hover {
+  a, a:hover {
     color: white;
   }
 

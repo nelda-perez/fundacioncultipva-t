@@ -9,4 +9,9 @@ export const FILESPDF = [
     name: "Regimen Tributario Especial - 2022 - 2023",
     file: "rte2022",
   },
+  {
+    key: 2,
+    name: "RUT - 2023",
+    file: "rut2023",
+  },
 ];

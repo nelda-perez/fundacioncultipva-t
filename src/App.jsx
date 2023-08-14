@@ -18,8 +18,7 @@ function App() {
     ROUTES.HOME,
     ROUTES.ACTION,
     ROUTES.PARTICIPATE,
-    ROUTES.HISTORY,
-    ROUTES.CONTACT
+    ROUTES.HISTORY
   ];
   return (
     <div className="principalContainer__app">
@@ -30,7 +29,7 @@ function App() {
           <Route path={ROUTES.PARTICIPATE.path} element={<Participate />} />
           <Route path={ROUTES.ACTION.path} element={<Actions />} />
           <Route path={ROUTES.HISTORY.path} element={<History />} />
-          <Route path={ROUTES.CONTACT.path} element={<Contact />} />
+          {/* <Route path={ROUTES.CONTACT.path} element={<Contact />} /> */}
           <Route path={ROUTES.RTE.path} element={<RTE />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
