@@ -2,7 +2,8 @@ export const PARTICIPATE = [
   {
     key: 0,
     title: "SIENDO VOLUNTARIO",
-    metafora: "Un Voluntario es una persona dispuesta a invertir su tiempo y sus recursos en beneficio de otras personas.",
+    metafora:
+      "Un Voluntario es una persona dispuesta a invertir su tiempo y sus recursos en beneficio de otras personas.",
     description:
       "Se requiere que las personas interesadas en apoyar el trabajo en las comunidades, tengan un corazón aprendiz con algunas características especiales como:",
     contributions: [
@@ -10,11 +11,12 @@ export const PARTICIPATE = [
       "Mayor de 18 años.",
       "No es necesaria una experiencia ministerial, pero si tener un corazón aprendiz y de servicio.",
       "Debe ser una persona que tenga comunión con Dios a través de su Palabra.",
-      "Necesariamente debe ser entrenado comenzando con el curso virtual de Alianza para el Discipulado de las Naciones. CORAMDEO y MISION ANTIVIRUS",
+      "Necesariamente debe ser entrenado comenzando con el curso virtual de Alianza para el Discipulado de las Naciones.",
     ],
     links: [
-      { label: "CORAMDEO", routerLink: "https://coramdeo.com/" },
+      { position: 4, label: "CORAMDEO", routerLink: "https://coramdeo.com/" },
       {
+        position: 4,
         label: "MISION ANTIVIRUS",
         routerLink:
           "https://apps.apple.com/co/app/misi%C3%B3n-antivirus/id1454136322",

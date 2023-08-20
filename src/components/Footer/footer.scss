@@ -41,6 +41,10 @@ footer {
     &:hover {
       color: var(--three-color);
     }
+
+    @media (max-width: 400px) {
+      font-size: 14px;
+    }
   }
 
   .wave {
