@@ -1,0 +1,13 @@
+.list::marker {
+  color: var(--primary-color);
+}
+
+.link {
+  display: inline-block;
+  color: black;
+  word-break: break-word;
+
+  &:hover {
+    color: var(--primary-color);
+  }
+}
