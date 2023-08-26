@@ -9,5 +9,6 @@ export { default as ItemFooter } from './Footer/component/ItemFooter/ItemFooter'
 export * from './Footer/component';
 export { default as CustomForm } from './Form/CustomForm';
 export { default as Header } from './Header/Header';
+export { default as IconDonate } from './IconDonate/IconDonate';
 export { default as Iconwp } from './Iconwp/Iconwp';
 export { default as InputForm } from './InputForm/InputForm';

@@ -1,5 +1,5 @@
 import "./App.scss";
-import { Header, Footer, Iconwp } from "./components";
+import { Header, Footer, Iconwp, IconDonate } from "./components";
 import { ROUTES } from "./constant/routes";
 import {
   About,
@@ -33,6 +33,7 @@ function App() {
           <Route path={ROUTES.RTE.path} element={<RTE />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <IconDonate />
         <Iconwp />
       </main>
       <Footer />
