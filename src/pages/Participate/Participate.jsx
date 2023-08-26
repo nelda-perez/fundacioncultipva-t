@@ -15,10 +15,11 @@ import { useState, useEffect } from "react";
 
 function Participate() {
   const [P1, P2, P3] = PARTICIPATE;
-  const [moreSeven, setMoreSeven] = useState(false);
+  const [moreSeven, setMoreSeven] = useState(window.innerWidth > 750);
 
   const modifyWidth = () => {
     const widthScreen = window.innerWidth;
+    console.log({widthScreen})
     setMoreSeven(widthScreen > 750);
   };
 
