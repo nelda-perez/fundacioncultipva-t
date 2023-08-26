@@ -8,13 +8,19 @@
   left: 45px;
   border-radius: 25px;
 
+  @media (max-width: 750px) {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+  }
+
   .arrow {
     position: absolute;
     width: 65px;
     right: -85px;
     bottom: 12px;
 
-    @media (max-width: 600px) {
+    @media (max-width: 750px) {
       display: none;
     }
   }
@@ -26,6 +32,11 @@
   left: 0;
   bottom: -10px;
   border-radius: 10px;
+
+  @media (max-width: 750px) {
+    width: 100%;
+    min-height: 40px;
+  }
 }
 
 .left_yellow {
@@ -48,8 +59,9 @@
     left: -85px;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 750px) {
     width: 100%;
+    margin-top: -20px;
     min-height: 0;
   }
 }

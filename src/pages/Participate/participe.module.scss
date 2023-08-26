@@ -12,6 +12,10 @@
     .imgEle {
       width: 100%;
     }
+
+    @media (max-width: 750px) {
+      padding-bottom: 0;
+    }
   }
 
   .containerImage {
@@ -25,7 +29,7 @@
       z-index: 1;
       min-width: 340px;
 
-      @media (max-width: 600px) {
+      @media (max-width: 750px) {
         min-width: 270px;
       }
     }
@@ -37,6 +41,11 @@
       top: 0;
       right: 40px;
       width: 100px;
+
+      @media (max-width: 600px) {
+        filter: sepia(1) hue-rotate(40deg) saturate(10000%);
+        right: 50px;
+      }
     }
 
     &::before {
@@ -91,6 +100,10 @@
     width: 20%;
     justify-content: flex-end;
     align-items: center;
+
+    @media (max-width: 750px) {
+      width: 100%;
+    }
   }
 
   .first {
@@ -109,10 +122,25 @@
       width: 300px;
       height: 120px;
       z-index: -1;
+
+      @media (max-width: 750px) {
+        display: none;
+      }
     }
 
     @media (max-width: 1270px) {
       display: none;
+    }
+
+    @media (max-width: 750px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      img {
+        min-width: 280px;
+      }
     }
   }
 
@@ -139,6 +167,17 @@
 
     @media (max-width: 1260px) {
       min-width: 235px;
+    }
+
+    @media (max-width: 750px) {
+      width: 100%;
+
+      img {
+        position: static;
+        width: 100%;
+        height: auto;
+        transform: none;
+      }
     }
   }
 
@@ -193,8 +232,12 @@
     }
   }
 
-  @media (max-width: 740px) {
-    flex-direction: column-reverse;
+  @media (max-width: 750px) {
+    flex-direction: column;
+
+    .containerImage {
+      width: 100%;
+    }
   }
 }
 
@@ -237,13 +280,20 @@
     }
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 750px) {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
     .sectionOne {
-      display: none;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+
+      .image {
+        width: 60%;
+        transform: rotateY(180deg);
+      }
     }
 
     .sectionLast {

@@ -1,4 +1,3 @@
-import logo from '../../assets/logo.png'
 import terms from '../../assets/Tratamiento_de_datos_2023.pdf'
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -15,12 +14,17 @@ function footer() {
             <ItemFooter
               icon="phone"
               link="https://wa.me/+573132112921"
-              content="3132112921"
+              content="+57 3132112921"
             />
             <ItemFooter
               icon="email"
               link="mailto:contactenos@fundacioncultivar.org"
               content="contactenos@fundacioncultivar.org"
+            />
+            <ItemFooter
+              icon="address"
+              link=""
+              content="Bogotá, Colombia"
             />
           </div>
           <div className="containerItems">
