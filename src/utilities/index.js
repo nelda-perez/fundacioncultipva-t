@@ -1,1 +1,2 @@
-export * from "./headerFunctions";
+export * from './headerFunctions';
+export * from './showLinks';

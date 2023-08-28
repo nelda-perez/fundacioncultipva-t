@@ -5,6 +5,7 @@ import Carlina from "../../../assets/carlina.png";
 import Nelda from "../../../assets/Nelda.png";
 import Camila from "../../../assets/camila.png";
 import Valeria from "../../../assets/vale.jpg";
+import Paul_Alf from "../../../assets/Paulina_Alfonso.png";
 
 export const TEAMS = [
   {
@@ -90,6 +91,21 @@ export const TEAMS = [
         description:
           "Apasionada de conocer distintas culturas e idiomas con el fin de motivar a mas gente de diferentes orígenes.",
         imageUrl: Valeria,
+      },
+    ],
+  },
+  {
+    key: 4,
+    title: "Mentores y Asesores en Familias",
+    members: [
+      {
+        key: 8,
+        name: "Maria Paulina y Alfonso Restrepo",
+        skill: "",
+        job: "Asesores y Mentores de Jovenes",
+        description:
+          "Servir y contribuir con el establecimiento de Principios y Valores del Reino de Dios, son unas de sus mayores pasiones.",
+        imageUrl: Paul_Alf,
       },
     ],
   },
