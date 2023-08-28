@@ -33,8 +33,8 @@ function App() {
           <Route path={ROUTES.RTE.path} element={<RTE />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <IconDonate />
-        <Iconwp />
+        {/* <IconDonate />
+        <Iconwp /> */}
       </main>
       <Footer />
     </div>
