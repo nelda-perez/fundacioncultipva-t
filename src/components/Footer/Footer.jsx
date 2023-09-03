@@ -24,7 +24,7 @@ function footer() {
             <ItemFooter
               icon="address"
               link=""
-              content="Bogotá, Colombia"
+              content="Bogotá D.C., Colombia"
             />
           </div>
           <div className="containerItems">
