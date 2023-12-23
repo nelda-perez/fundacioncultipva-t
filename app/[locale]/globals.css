@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Poppins:wght@300;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Poppins", Helvetica, sans-serif;
+}
+
+:root {
+  --main-gradient: linear-gradient(
+    0deg,
+    var(--primary-color) 70%,
+    var(--three-color) 100%
+  );
+  --main-color: #21B354;
+  --primary-color: #42A68D;
+  --pc-transparent: #2ad99c86;
+  --secondary-color: #755b03;
+  --three-color: #ffcc29;
+  --tc-onda: #c89a00;
+  --family: "Poppins", sans-serif;
+  --second-family: "Euphoria Script", cursive;
+  height: auto;
+  min-height: 100%;
+  font-display: swap;
+  font-family: var(--family);
+}
+
+a, p,
+.color_black,
+.link {
+  font-family: var(--family);
+}
+
+.all_link {
+  width: 100%;
+  height: 100%;
+}
+
+.active {
+  color: var(--three-color);
+}
+
+.link {
+  font-size: 20px;
+}
+
+.color_black {
+  color: black;
+}
+
+.hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    margin-left: 40px;
+    height: 80%;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #5f5f5f;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--three-color);
+    border-radius: 5px;
+    height: 80px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: var(--pc-transparent);
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 180px;
+  margin-bottom: 30px;
+  gap: 60px;
+  height: auto;
+
+  @media (max-width: 500px) {
+    margin-top: 180px;
+  }
+}
+
+.principalContainer__app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+@media (max-width: 800px) {
+  .displayHeader {
+    display: none;
+  }
+}

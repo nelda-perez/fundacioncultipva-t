@@ -1,0 +1,30 @@
+.containerImg {
+  width: 100%;
+  height: 450px;
+  position: relative;
+}
+
+.containerImg button {
+  position: absolute;
+  top: 36%;
+  font-size: 160px;
+  background: none;
+  color: var(--three-color);
+  border: none;
+  z-index: 9;
+  cursor: pointer;;
+}
+
+.left {
+  left: 3%;
+}
+
+.rigth {
+  right: 3%;
+}
+
+@media (max-width: 450px) {
+  .containerImg button {
+    display: none;
+  }
+}

@@ -1,0 +1,109 @@
+.containerLogo {
+  margin-top: 10px;
+  display: contents;
+  color: #ffffff;
+}
+
+.link {
+  color: #ffffff;
+}
+
+.containerLogo figure {
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.containerLogo figure::after {
+  content: "";
+  position: absolute;
+  width: 93%;
+  height: 82%;
+  background-color: #ffffff;
+  border-radius: 50%;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.containerLogo figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 500px) {
+  .containerLogo figure {
+    width: 110px;
+    height: 110px;
+  }
+
+  .textLogo .firstText {
+    font-size: 18px;
+  }
+}
+
+.textLogo {
+  border-left: 2px solid #ffffff;
+  padding-left: 15px;
+}
+
+.textLogo .firstText {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.secondText {
+  font-size: 14px;
+  max-width: 140px;
+  margin: 0;
+  font-style: oblique;
+  font-family: var(--second-family);
+}
+
+.slogan {
+  font-size: 32px;
+  font-family: var(--second-family);
+  text-align: center;
+  margin-top: -50px;
+  font-style: oblique;
+
+  @media (max-width: 750px) {
+    margin-top: -10px;
+  }
+}
+
+
+.languageDropdown {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.selectBox {
+  appearance: none;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.iconContainer {
+  background-color: #007bff; /* Color de fondo del contenedor del ícono */
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.globeIcon {
+  color: #fff; /* Color del ícono */
+  font-size: 18px;
+}
