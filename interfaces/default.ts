@@ -1,3 +1,12 @@
+export interface InterInputForm {
+  name: string;
+  title: string;
+  type?: string;
+  msgError: string;
+  validator: any;
+  isRequired?: Boolean;
+}
+
 export interface InfoCards {
   key: number;
   title: string;

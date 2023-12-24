@@ -64,7 +64,7 @@ export default function LanguageChanger() {
         value={currentLocale}
         displayEmpty
         onChange={handleChange}
-        style={{ height: 50, zIndex: 9991 }}
+        style={{ height: 50, zIndex: 9991, background: '#ffffff69' }}
         MenuProps={MenuProps}>
         <MenuItem value="en">
           <Image width={25} height={25} src={ingles} alt="english" />

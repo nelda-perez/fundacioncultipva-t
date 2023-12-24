@@ -1,16 +1,24 @@
 import Link from 'next/link';
 import style from './actionButton.module.css';
+import { useTranslation } from 'react-i18next';
 
-function ActionButton({ textButton, path, isButton = false }) {
+interface Props {
+  textButton: string;
+  path?: string;
+  isButton?: Boolean;
+}
+
+function ActionButton({ textButton, path, isButton = false }: Props) {
+  const { t } = useTranslation();
   return (
     <>
       {isButton ? (
         <button className={style.button} type="submit">
-          {textButton}
+          {t(textButton)}
         </button>
       ) : (
-        <Link href={path} className={style.button}>
-          {textButton}
+        <Link href={path || ''} className={style.button}>
+          {t(textButton)}
         </Link>
       )}
     </>

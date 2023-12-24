@@ -110,6 +110,16 @@
   "rte__text_3_1": "Los recursos que se obtienen se concentran en el desarrollo del proyecto ubicado en ",
   "rte__text_3_2": "Altos de la Estancia",
   "rte__text_3_3": " que beneficia a niños, jóvenes y familias.",
+  "_comment7": "contact",
+  "Nombre": "Nombre",
+  "Correo electronico": "Correo electronico",
+  "Asunto": "Asunto",
+  "send": "ENVIAR",
+  "correctEmail": "El email se ha enviado correctamente",
+  "somethingError": "Ops, ocurrio un error al enviar el email.",
+  "email_error": "El correo electronico es requerido",
+  "name_error": "El nombre es requerido",
+  "subject_error": "El asunto es requerido",
   "view_more": "Ver más"
 }
 

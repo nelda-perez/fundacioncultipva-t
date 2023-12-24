@@ -12,6 +12,7 @@ import bg from '../../public/background.png';
 import TranslationsProvider from '@/components/TranslationsProvider';
 import initTranslations from '@/app/i18n';
 import LanguageChanger from '@/components/LanguageChanger';
+import DonateModal from '../../components/IconDonate/IconDonate';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -39,7 +40,8 @@ export default async function RootLayout({
     ROUTES.HOME,
     ROUTES.ACTION,
     ROUTES.PARTICIPATE,
-    ROUTES.HISTORY
+    ROUTES.HISTORY,
+    ROUTES.CONTACT
   ];
 
   return (
@@ -56,6 +58,7 @@ export default async function RootLayout({
             resources={resources}>
             <Header pages={headerPages} />
             <LanguageChanger />
+            <DonateModal />
             <main>{children}</main>
             <Footer />
           </TranslationsProvider>

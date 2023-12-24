@@ -110,5 +110,15 @@
   "rte__text_3_1": "The resources obtained are focused on the development of the project located in ",
   "rte__text_3_2": "Altos de la Estancia",
   "rte__text_3_3": ", benefiting children, youth, and families.",
+  "_comment7": "contact",
+  "Nombre": "Name",
+  "Correo electronico": "Email",
+  "Asunto": "Body",
+  "send": "SEND",
+  "correctEmail": "The email has been sent successfully",
+  "somethingError": "Oops, an error occurred while sending the email.",
+  "email_error": "Email is required",
+  "name_error": "Name is required",
+  "subject_error": "Subject is required",
   "view_more": "View more"
 }
