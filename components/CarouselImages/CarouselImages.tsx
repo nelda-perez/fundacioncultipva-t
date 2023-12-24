@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { RefObject, useEffect, useState } from 'react';
 import styles from './carouselImages.module.css';
 import { forwardRef } from 'react';
 import React from 'react';
@@ -26,7 +26,7 @@ const CarouselImages = forwardRef(
       'Servimos',
       'Vamos donde está la necesidad'
     ];
-    const imgRef = React.createRef();
+    const imgRef: RefObject<HTMLImageElement | null> = React.createRef();
     const [selectedIndex, setSelectedIndex] = useState(0);
     const [word, setWord] = useState(wordsForImages[0]);
     const [loaded, setLoaded] = useState(false);

@@ -3,7 +3,13 @@
 import styles from './carousel.module.css';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import CarouselImages from '../CarouselImages/CarouselImages';
-import React from 'react';
+import React, { RefObject } from 'react';
+
+interface ImageCarousel {
+  next: () => void;
+  previous: () => void;
+  // Agrega otras propiedades si es necesario
+}
 
 interface Props {
   images: any[];
@@ -11,7 +17,7 @@ interface Props {
 }
 
 function Carousel({ images, autoPlay }: Props) {
-  const imgRef = React.createRef();
+  const imgRef: RefObject<ImageCarousel> = React.createRef();
   const quantityImgs = images?.length ?? 0;
 
   if (!Array.isArray(images) || quantityImgs === 0) return;
