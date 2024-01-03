@@ -64,7 +64,7 @@ function FormEmail({ title, setIsSubmit }: Props) {
       }
     });
     const res = await resStatus.json();
-
+    console.log(res);
     setContentPop(res.data?.id ? 'correctEmail' : 'somethingError');
 
     setOpen(true);
