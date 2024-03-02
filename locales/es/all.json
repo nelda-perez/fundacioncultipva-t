@@ -3,7 +3,7 @@
   "header_text_top": "Cultivando principios y valores para transformar",
   "Inicio": "Inicio",
   "Transparencia": "Transparencia",
-  "Contáctenos": "Contáctenos",
+  "Contáctenos": "Comunícate",
   "Participar": "Participar",
   "Líneas de Acción": "Líneas de Acción",
   "Historia": "Historia",
@@ -120,6 +120,9 @@
   "email_error": "El correo electronico es requerido",
   "name_error": "El nombre es requerido",
   "subject_error": "El asunto es requerido",
-  "view_more": "Ver más"
+  "view_more": "Ver más",
+  "donateNow": "Dona Ahora",
+  "donate": "Donar",
+  "country": "País"
 }
 

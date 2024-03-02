@@ -2,10 +2,12 @@
 import { useState } from 'react';
 import Select from 'react-select';
 import { countries } from '../public/database/countries';
+import { useTranslation } from 'react-i18next';
 
 const allCountries = countries;
 
 export default function SelectCountries() {
+  const { t } = useTranslation();
   const [country, setCountry] = useState({
     value: 'Colombia',
     label: 'Colombia'
@@ -14,7 +16,7 @@ export default function SelectCountries() {
 
   return (
     <div>
-      <label style={{ fontSize: 14 }}>País:</label>
+      <label style={{ fontSize: 14 }}>{ t('country') }:</label>
       <Select
         id={id}
         name="country"
