@@ -102,6 +102,14 @@ function FormEmail({ title, setIsSubmit }: Props) {
       />
 
       <InputForm
+        name="lastName"
+        title="Apellido"
+        msgError={MESSAGE_ERROR.name}
+        validator={regex.name}
+        ref={nameInput}
+      />
+
+      <InputForm
         name="email"
         title="Correo electronico"
         type="email"

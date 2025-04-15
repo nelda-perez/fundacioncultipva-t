@@ -2,6 +2,16 @@ import { FilesPDF } from '@/interfaces/default';
 
 export const FILESPDF: FilesPDF[] = [
   {
+    key: 5,
+    name: 'Estados Financieros - 2024',
+    file: '/assets/Estados_Financieros_Año_2024.pdf'
+  },
+  {
+    key: 6,
+    name: 'RUT - 2024',
+    file: '/assets/RUT_ACTUALIZADO_05_11_2024.pdf'
+  },
+  {
     key: 0,
     name: 'Camara de Camercio - 2024',
     file: '/assets/Camara_Comercio_Marzo_21_2024.pdf'
