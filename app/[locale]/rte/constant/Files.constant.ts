@@ -72,5 +72,11 @@ export const FILESPDF: FilesPDF[] = [
     name: 'Informe de Gestion Asambleistas - 2025',
     file: '/assets/informe_gestion_asambleistas_2025.pdf',
     order: 5
+  },
+  {
+    key: 12,
+    name: 'RUT - 2026',
+    file: '/assets/rut_actualizado_20082025.pdf',
+    order: 9
   }
 ].sort((a,b) => b.order - a.order);
