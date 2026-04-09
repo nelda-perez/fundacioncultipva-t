@@ -17,8 +17,8 @@ function Footer() {
           <div className="containerItems">
             <ItemFooter
               icon="phone"
-              link="https://wa.me/+573132112921"
-              content="+57 3132112921"
+              link="https://wa.me/+573209850672"
+              content="+57 (320) 985-0672"
             />
             <ItemFooter
               icon="email"
